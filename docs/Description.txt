@@ -1,0 +1,23 @@
+DESCRIPTION
+MacroDial is a tool to help edit and automatically change numbers from your address book according to some rules based on the way you want to call: IDD, calling card, corporate access number, without entering multiple entry in the phonebook.
+
+TARGET USERS
+This program is intended to be useful for 
+- people who travel and need to dial the same number in diverse way, for example you dial +813 5555 5555 to call japan when you are in Hong kong, but 03 5555 5555 when you are in japan.
+- People who have access to IDD prefix code, or use carrier like softbank in japan that do not process the + as expected.
+- People who have corporate access number that require processing of the number to extract the right extension.
+- People using multiple calling card from different countries.
+
+GOAL OF THE DESIGN OF THE PROGRAM
+- provide a full set of rules to make any generation of numbers possible.
+- be able to share the rules via the internet. They can be downloaded without compromising personal codes or PINs.
+- have a simple way to enter rules as well as a more advanced complete mode.
+- provide the user workflow that fitted my need.
+
+HOW TO USE IT
+- when you start the program a wizard will let you choose a few options or package of rules. Currently only for Japan Softbank or Hong Kong three, but you can download more from the web. If you have a code (from friends or from me) you can access rules specific to a company for example.
+- After you select a contact, you can choose the number and if you click on a rule (or macro) that rule will be applied to the number. 
+- No number will ever be called without you pressing the call button, so you can review to make sure the number is correct.
+- To create a new rule you can simply edit the number in the Dial screen, and if a simple way to regenerate the number is detected the program will offer to save it as a new rules.
+- If you are a more advanced user you can design your rules from the edit macro function in the setting screen.
+

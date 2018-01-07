@@ -1,0 +1,1948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MacroDialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MacroDialAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		420622601D3B6D1E0013A45E /* RZUtilsTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4206225D1D3B6D1E0013A45E /* RZUtilsTouch.framework */; };
+		420622611D3B6DA50013A45E /* RZUtilsTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4206225D1D3B6D1E0013A45E /* RZUtilsTouch.framework */; };
+		420A5BBC0F6BB62200CC9A1D /* MacroImplReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A5BBB0F6BB62200CC9A1D /* MacroImplReplace.m */; };
+		420A5BF40F6BB8F400CC9A1D /* MacroImplReplacePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A5BF30F6BB8F400CC9A1D /* MacroImplReplacePlus.m */; };
+		42104D131BA7FECB005EF53A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42104D121BA7FECB005EF53A /* QuartzCore.framework */; };
+		4210AFE10F8107EC00D51D84 /* SetupWizardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4210AFE00F8107EC00D51D84 /* SetupWizardViewController.m */; };
+		4218EC680F50D00F00ECA686 /* RecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218EC670F50D00F00ECA686 /* RecentViewController.m */; };
+		421B98BD0F49995800857482 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421B98BC0F49995800857482 /* TabBarController.m */; };
+		4220B33F0F542F58009BAB9B /* MacroImplAddVarSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4220B33E0F542F58009BAB9B /* MacroImplAddVarSuffix.m */; };
+		42285B4F0F4FE228007DF3F8 /* DialControllerProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42285B4E0F4FE228007DF3F8 /* DialControllerProtocol.m */; };
+		422B83041BA2E2990018FE91 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422B83031BA2E2990018FE91 /* StoreKit.framework */; };
+		422C7EAD0F6D43B3001B13F6 /* MacroVariablesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C7EAC0F6D43B3001B13F6 /* MacroVariablesViewController.m */; };
+		422DF1350FD958F6001FFD08 /* FindWhereIAm.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DF1340FD958F6001FFD08 /* FindWhereIAm.m */; };
+		422DF1B10FD96650001FFD08 /* RemoteDownloadLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DF1B00FD96650001FFD08 /* RemoteDownloadLocation.m */; };
+		423700020F448EA100624FDE /* MacroImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700010F448EA100624FDE /* MacroImpl.m */; };
+		423700350F459C2700624FDE /* MacroImplAddPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700340F459C2700624FDE /* MacroImplAddPrefix.m */; };
+		4237020D0F45C38100624FDE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237020B0F45C38100624FDE /* AddressBook.framework */; };
+		4237020E0F45C38100624FDE /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237020C0F45C38100624FDE /* AddressBookUI.framework */; };
+		4237FF800F44887100624FDE /* MacroNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF7F0F44887100624FDE /* MacroNode.m */; };
+		4237FF850F44892800624FDE /* MacroXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF840F44892800624FDE /* MacroXMLParser.m */; };
+		423A120D0FC94D730058755C /* RemoteUploadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A120C0FC94D730058755C /* RemoteUploadPackage.m */; };
+		423BBE930F7916E000AC76CC /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 423BBE920F7916E000AC76CC /* settings.plist */; };
+		423D5C1F1D27ED4B0068D9CE /* RZUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB14E51D27E2800097B2D6 /* RZUtils.framework */; };
+		42470C600FBD8AD700F83545 /* WebUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42470C5F0FBD8AD700F83545 /* WebUploadViewController.m */; };
+		42470CD40FC2ECF200F83545 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42470CD30FC2ECF200F83545 /* SystemConfiguration.framework */; };
+		42470CD80FC2ECFB00F83545 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42470CD70FC2ECFB00F83545 /* CoreLocation.framework */; };
+		4249381B0FF7241700D6B316 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249381A0FF7241700D6B316 /* DebugViewController.m */; };
+		424938EC0FF9115900D6B316 /* DebugUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424938EB0FF9115900D6B316 /* DebugUsageViewController.m */; };
+		424DFBD10F7127790091F0E0 /* MacroImplPausePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFBD00F7127790091F0E0 /* MacroImplPausePrefix.m */; };
+		424DFBD80F7128350091F0E0 /* MacroImplPauseSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFBD70F7128350091F0E0 /* MacroImplPauseSuffix.m */; };
+		424DFBE90F71489A0091F0E0 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFBE80F71489A0091F0E0 /* ScheduleViewController.m */; };
+		424DFD390F72A1510091F0E0 /* WebListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFD380F72A1510091F0E0 /* WebListViewController.m */; };
+		424DFF3A0F73E9DB0091F0E0 /* WebCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFF390F73E9DB0091F0E0 /* WebCodeViewController.m */; };
+		424DFFDE0F73FD270091F0E0 /* MacroImplReplacePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFFDD0F73FD270091F0E0 /* MacroImplReplacePrefix.m */; };
+		424DFFE30F73FD810091F0E0 /* MacroImplReplaceSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFFE20F73FD810091F0E0 /* MacroImplReplaceSuffix.m */; };
+		42585BBA0F6D676800ABD042 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42585BB90F6D676800ABD042 /* Entitlements.plist */; };
+		42595F240F49B4D900BEC106 /* ContactTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 42595F230F49B4D900BEC106 /* ContactTableDataSource.m */; };
+		42595FA90F49C02C00BEC106 /* MacroTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 42595FA80F49C02C00BEC106 /* MacroTableDataSource.m */; };
+		425D66A50F67159800EA0EFB /* MacroNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425D66A40F67159800EA0EFB /* MacroNameViewController.m */; };
+		4263DD0B0F864E2E00C07208 /* RemoteDownloadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4263DD0A0F864E2E00C07208 /* RemoteDownloadPackage.m */; };
+		4265D16E0FECB05A00E4C7DB /* UsageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265D16D0FECB05A00E4C7DB /* UsageData.m */; };
+		4267DB171234F97600FB1956 /* WebURLroznet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4267DB161234F97600FB1956 /* WebURLroznet.m */; };
+		426C96350F61F87500F61CE3 /* TabControllerProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 426C96340F61F87500F61CE3 /* TabControllerProtocol.m */; };
+		426F3B841BA5C088002202EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426F3B831BA5C088002202EC /* Assets.xcassets */; };
+		426F3B871BA5C088002202EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426F3B851BA5C088002202EC /* LaunchScreen.storyboard */; };
+		426F3BA41BA5C299002202EC /* AppGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B911BA5C299002202EC /* AppGlobals.m */; };
+		426F3BA51BA5C299002202EC /* ConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B921BA5C299002202EC /* ConfigTests.m */; };
+		426F3BA61BA5C299002202EC /* DatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B941BA5C299002202EC /* DatabaseTests.m */; };
+		426F3BA71BA5C299002202EC /* InfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B951BA5C299002202EC /* InfoTests.m */; };
+		426F3BA81BA5C299002202EC /* MacroDialTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B971BA5C299002202EC /* MacroDialTestAppDelegate.m */; };
+		426F3BA91BA5C299002202EC /* MacroDialTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B991BA5C299002202EC /* MacroDialTestViewController.m */; };
+		426F3BAA1BA5C299002202EC /* MacroHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B9B1BA5C299002202EC /* MacroHandlerTests.m */; };
+		426F3BAB1BA5C299002202EC /* MacroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B9D1BA5C299002202EC /* MacroTests.m */; };
+		426F3BAC1BA5C299002202EC /* PhoneNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3B9F1BA5C299002202EC /* PhoneNumberTests.m */; };
+		426F3BAD1BA5C299002202EC /* WebMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3BA11BA5C299002202EC /* WebMacrosTests.m */; };
+		426F3BB51BA5C2B0002202EC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426F3BAE1BA5C2B0002202EC /* Launch Screen.storyboard */; };
+		426F3BB71BA5C2B0002202EC /* DialMacroIconTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 426F3BB01BA5C2B0002202EC /* DialMacroIconTest.png */; };
+		426F3BB81BA5C2B0002202EC /* info.db in Resources */ = {isa = PBXBuildFile; fileRef = 426F3BB11BA5C2B0002202EC /* info.db */; };
+		426F3BBA1BA5C2B0002202EC /* macros_test.db in Resources */ = {isa = PBXBuildFile; fileRef = 426F3BB41BA5C2B0002202EC /* macros_test.db */; };
+		426F3BBC1BA5C4ED002202EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426F3BAF1BA5C2B0002202EC /* main.m */; };
+		426F3BCF1BA5C823002202EC /* RecentCallRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A189D20F61673000B9F46D /* RecentCallRecord.m */; };
+		426F3BD01BA5C823002202EC /* MacroOrganizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285B8130F52EB91008D6F3C /* MacroOrganizer.m */; };
+		426F3BD11BA5C823002202EC /* InfoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 42737DE60FE14C9500B443BA /* InfoDatabase.m */; };
+		426F3BD21BA5C823002202EC /* UsageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4265D16D0FECB05A00E4C7DB /* UsageData.m */; };
+		426F3BD31BA5C823002202EC /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BEFE450F44791700DB3590 /* PhoneNumber.m */; };
+		426F3BD41BA5C823002202EC /* PhoneNumberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D8CDB10FE5EEF400186D5B /* PhoneNumberInfo.m */; };
+		426F3BD51BA5C823002202EC /* MacroImplReplacePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A5BF30F6BB8F400CC9A1D /* MacroImplReplacePlus.m */; };
+		426F3BD61BA5C823002202EC /* MacroImplReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A5BBB0F6BB62200CC9A1D /* MacroImplReplace.m */; };
+		426F3BD71BA5C823002202EC /* MacroImplRemoveSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEB0740F64B1CA0070F56D /* MacroImplRemoveSuffix.m */; };
+		426F3BD81BA5C823002202EC /* MacroImplFirstDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B2F0D0F5BDB5800B53CC1 /* MacroImplFirstDigits.m */; };
+		426F3BD91BA5C823002202EC /* MacroImplRemovePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B2F070F5BDAA900B53CC1 /* MacroImplRemovePlus.m */; };
+		426F3BDA1BA5C823002202EC /* MacroImplAddVarPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C91B0A0F543ECF009B580D /* MacroImplAddVarPrefix.m */; };
+		426F3BDB1BA5C823002202EC /* MacroImplPausePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFBD00F7127790091F0E0 /* MacroImplPausePrefix.m */; };
+		426F3BDC1BA5C823002202EC /* MacroImplLastDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D9F47B0F50040B00FA13EE /* MacroImplLastDigits.m */; };
+		426F3BDD1BA5C823002202EC /* MacroImplRemoveCountryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB6D7F0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m */; };
+		426F3BDE1BA5C823002202EC /* MacroImplAddPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700340F459C2700624FDE /* MacroImplAddPrefix.m */; };
+		426F3BDF1BA5C823002202EC /* MacroImplAddSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C91B050F543EAE009B580D /* MacroImplAddSuffix.m */; };
+		426F3BE01BA5C823002202EC /* MacroImplAddVarSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4220B33E0F542F58009BAB9B /* MacroImplAddVarSuffix.m */; };
+		426F3BE11BA5C823002202EC /* MacroImplRemovePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEB06F0F64B0F80070F56D /* MacroImplRemovePrefix.m */; };
+		426F3BE21BA5C823002202EC /* MacroImplNoOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4281E9780F6F3B7D00D93D7B /* MacroImplNoOp.m */; };
+		426F3BE31BA5C823002202EC /* MacroImplPauseSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFBD70F7128350091F0E0 /* MacroImplPauseSuffix.m */; };
+		426F3BE41BA5C823002202EC /* MacroImplReplacePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFFDD0F73FD270091F0E0 /* MacroImplReplacePrefix.m */; };
+		426F3BE51BA5C823002202EC /* MacroImplReplaceSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DFFE20F73FD810091F0E0 /* MacroImplReplaceSuffix.m */; };
+		426F3BE61BA5C823002202EC /* MacroImplReplaceRegexp.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB91D7134605AF006298D6 /* MacroImplReplaceRegexp.m */; };
+		426F3BE71BA5C823002202EC /* MacroAutoLearner.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDDF940F694E1E008806C7 /* MacroAutoLearner.m */; };
+		426F3BE81BA5C823002202EC /* MacroImplHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B33F10F5EBDBD00B53CC1 /* MacroImplHandler.m */; };
+		426F3BE91BA5C823002202EC /* MacroImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700010F448EA100624FDE /* MacroImpl.m */; };
+		426F3BEA1BA5C823002202EC /* MacroXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF840F44892800624FDE /* MacroXMLParser.m */; };
+		426F3BEB1BA5C823002202EC /* MacroNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF7F0F44887100624FDE /* MacroNode.m */; };
+		426F3BEC1BA5C823002202EC /* WebURLroznet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4267DB161234F97600FB1956 /* WebURLroznet.m */; };
+		426F3BED1BA5C823002202EC /* FindWhereIAm.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DF1340FD958F6001FFD08 /* FindWhereIAm.m */; };
+		426F3BEE1BA5C823002202EC /* RemoteDownloadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4263DD0A0F864E2E00C07208 /* RemoteDownloadPackage.m */; };
+		426F3BEF1BA5C823002202EC /* RemoteDownloadList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C61CAE0F8275FF00B9491A /* RemoteDownloadList.m */; };
+		426F3BF01BA5C823002202EC /* RemoteUploadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A120C0FC94D730058755C /* RemoteUploadPackage.m */; };
+		426F3BF11BA5C823002202EC /* RemoteDownloadLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DF1B00FD96650001FFD08 /* RemoteDownloadLocation.m */; };
+		426F3C0F1BA5C836002202EC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 426F3C0E1BA5C836002202EC /* libsqlite3.0.tbd */; };
+		42737DE20FE14C6000B443BA /* info.db in Resources */ = {isa = PBXBuildFile; fileRef = 42737DE10FE14C6000B443BA /* info.db */; };
+		42737DE70FE14C9500B443BA /* InfoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 42737DE60FE14C9500B443BA /* InfoDatabase.m */; };
+		427B2F080F5BDAA900B53CC1 /* MacroImplRemovePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B2F070F5BDAA900B53CC1 /* MacroImplRemovePlus.m */; };
+		427B2F0E0F5BDB5800B53CC1 /* MacroImplFirstDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B2F0D0F5BDB5800B53CC1 /* MacroImplFirstDigits.m */; };
+		427B33F20F5EBDBD00B53CC1 /* MacroImplHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B33F10F5EBDBD00B53CC1 /* MacroImplHandler.m */; };
+		427D30F417EE5C3700AB4220 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D30F317EE5C3700AB4220 /* Images.xcassets */; };
+		4281E9790F6F3B7D00D93D7B /* MacroImplNoOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4281E9780F6F3B7D00D93D7B /* MacroImplNoOp.m */; };
+		4285B8140F52EB91008D6F3C /* MacroOrganizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285B8130F52EB91008D6F3C /* MacroOrganizer.m */; };
+		4285B8270F52F1E3008D6F3C /* AppGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285B8260F52F1E3008D6F3C /* AppGlobals.m */; };
+		4285B8C30F530162008D6F3C /* macros.db in Resources */ = {isa = PBXBuildFile; fileRef = 4285B8C20F530162008D6F3C /* macros.db */; };
+		4285B9050F5306B2008D6F3C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4285B9040F5306B2008D6F3C /* libsqlite3.0.dylib */; };
+		428A6A2C0F5906330085EC0C /* MacroEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428A6A2B0F5906330085EC0C /* MacroEditViewController.m */; };
+		428AC2D91D8566370005663E /* MacroEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AC2D81D8566370005663E /* MacroEmpty.swift */; };
+		428AC2DA1D8566370005663E /* MacroEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AC2D81D8566370005663E /* MacroEmpty.swift */; };
+		42991A5A20022CD000D19F6D /* FieldValuePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42991A5720022CD000D19F6D /* FieldValuePreviewCell.m */; };
+		42991A5B20022CD000D19F6D /* SearchableTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42991A5820022CD000D19F6D /* SearchableTableController.m */; };
+		42991A5C20022CED00D19F6D /* RZUtilsTestInfra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42991A5520022A0700D19F6D /* RZUtilsTestInfra.framework */; };
+		429AC38B0F62197100CCCDE4 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC38A0F62197100CCCDE4 /* SwitchCell.m */; };
+		429AC3900F621A4200CCCDE4 /* FeedbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC38F0F621A4200CCCDE4 /* FeedbackCell.m */; };
+		429AC3950F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC3940F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.m */; };
+		429AC3D70F622B7500CCCDE4 /* TextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC3D60F622B7500CCCDE4 /* TextInputCell.m */; };
+		429AC5090F6289E300CCCDE4 /* MacroListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC5080F6289E300CCCDE4 /* MacroListController.m */; };
+		429AC5760F63274C00CCCDE4 /* MacroImplViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC5750F63274C00CCCDE4 /* MacroImplViewController.m */; };
+		429AC5850F635EA100CCCDE4 /* MacroImplTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429AC5840F635EA100CCCDE4 /* MacroImplTypeViewController.m */; };
+		42A189CE0F61662300B9F46D /* RecentCallsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A189CD0F61662300B9F46D /* RecentCallsDataSource.m */; };
+		42A189D30F61673000B9F46D /* RecentCallRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A189D20F61673000B9F46D /* RecentCallRecord.m */; };
+		42A18A5E0F617D1200B9F46D /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A18A5D0F617D1200B9F46D /* ConfigViewController.m */; };
+		42A3DB2417C32DC900CF4FF0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A3DB2317C32DC900CF4FF0 /* Security.framework */; };
+		42A5E41E1D8566D40009C344 /* RZUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB14E51D27E2800097B2D6 /* RZUtils.framework */; };
+		42A5E41F1D8566D40009C344 /* RZUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB14E51D27E2800097B2D6 /* RZUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		42A5E4231D8566D40009C344 /* RZUtilsTouch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4206225D1D3B6D1E0013A45E /* RZUtilsTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		42BEFE460F44791700DB3590 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BEFE450F44791700DB3590 /* PhoneNumber.m */; };
+		42BEFE5E0F447AC600DB3590 /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BEFE5D0F447AC600DB3590 /* DialViewController.m */; };
+		42C61CAF0F8275FF00B9491A /* RemoteDownloadList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C61CAE0F8275FF00B9491A /* RemoteDownloadList.m */; };
+		42C91B060F543EAE009B580D /* MacroImplAddSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C91B050F543EAE009B580D /* MacroImplAddSuffix.m */; };
+		42C91B0B0F543ECF009B580D /* MacroImplAddVarPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C91B0A0F543ECF009B580D /* MacroImplAddVarPrefix.m */; };
+		42CB6D380F4EEA0A006CDCE7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CB6D360F4EEA0A006CDCE7 /* Localizable.strings */; };
+		42CB6D800F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB6D7F0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m */; };
+		42CB91D8134605AF006298D6 /* MacroImplReplaceRegexp.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB91D7134605AF006298D6 /* MacroImplReplaceRegexp.m */; };
+		42CDDF280F67D609008806C7 /* NavigationControllerWithRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDDF270F67D609008806C7 /* NavigationControllerWithRefresh.m */; };
+		42CDDF2F0F67D857008806C7 /* RefreshProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDDF2E0F67D857008806C7 /* RefreshProtocol.m */; };
+		42CDDF950F694E1E008806C7 /* MacroAutoLearner.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDDF940F694E1E008806C7 /* MacroAutoLearner.m */; };
+		42D8CDB20FE5EEF400186D5B /* PhoneNumberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D8CDB10FE5EEF400186D5B /* PhoneNumberInfo.m */; };
+		42D9F47C0F50040B00FA13EE /* MacroImplLastDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D9F47B0F50040B00FA13EE /* MacroImplLastDigits.m */; };
+		42EE6F2B0FD1494000E98838 /* HtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE6F2A0FD1494000E98838 /* HtmlViewController.m */; };
+		42EE6F810FD1E5D700E98838 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 42EE6F800FD1E5D700E98838 /* about.html */; };
+		42EE6F850FD1E5EA00E98838 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 42EE6F840FD1E5EA00E98838 /* help.html */; };
+		42EE6FA40FD1EA0E00E98838 /* app.css in Resources */ = {isa = PBXBuildFile; fileRef = 42EE6FA30FD1EA0E00E98838 /* app.css */; };
+		42EE6FB40FD1F1AA00E98838 /* beforeupload.html in Resources */ = {isa = PBXBuildFile; fileRef = 42EE6FB30FD1F1AA00E98838 /* beforeupload.html */; };
+		42EEB0700F64B0F80070F56D /* MacroImplRemovePrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEB06F0F64B0F80070F56D /* MacroImplRemovePrefix.m */; };
+		42EEB0750F64B1CA0070F56D /* MacroImplRemoveSuffix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EEB0740F64B1CA0070F56D /* MacroImplRemoveSuffix.m */; };
+		42EEB94A1B9E3E440085EA75 /* icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EEB9491B9E3E440085EA75 /* icons.xcassets */; };
+		42EEB94C1B9E40D80085EA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EEB94B1B9E40D80085EA75 /* LaunchScreen.storyboard */; };
+		42FACBEA0FCE4BA00037DDF4 /* MacroListPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FACBE90FCE4BA00037DDF4 /* MacroListPickerViewController.m */; };
+		42FE3D80101B1F2F0059710F /* DebugDictArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE3D7F101B1F2F0059710F /* DebugDictArrayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4206225C1D3B6D1E0013A45E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42BF1F831D3ABC34004445C2;
+			remoteInfo = RZUtilsTouch;
+		};
+		4206225E1D3B6D1E0013A45E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42BF1F8C1D3ABC34004445C2;
+			remoteInfo = RZUtilsTouchTests;
+		};
+		42991A5420022A0700D19F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 428BE85420013D4200E14A61;
+			remoteInfo = RZUtilsTestInfra;
+		};
+		42A5E4201D8566D40009C344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 423829261EAB534100252217;
+			remoteInfo = RZUtils;
+		};
+		42A5E4241D8566D40009C344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 42382ACF1EAC9BC700252217;
+			remoteInfo = RZUtilsTouch;
+		};
+		42BD30521F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382A451EAB584600252217;
+			remoteInfo = RZUtilsSwift;
+		};
+		42BD30541F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382A4D1EAB584600252217;
+			remoteInfo = RZUtilsSwiftTests;
+		};
+		42BD30561F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382A6C1EABA4AC00252217;
+			remoteInfo = RZUtilsUniversal;
+		};
+		42BD30581F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382A741EABA4AC00252217;
+			remoteInfo = RZUtilsUniversalTests;
+		};
+		42BD305A1F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382AAA1EAC824900252217;
+			remoteInfo = RZUtilsHealthkit;
+		};
+		42BD305C1F46F3600006F9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42382AB21EAC824900252217;
+			remoteInfo = RZUtilsHealthkitTests;
+		};
+		42FB14E41D27E2800097B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42249D8819BE3D3A00D2DAA0;
+			remoteInfo = RZUtils;
+		};
+		42FB14E61D27E2800097B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42249D9319BE3D3B00D2DAA0;
+			remoteInfo = RZUtilsTests;
+		};
+		42FB14E81D27E2800097B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4288E4E21A33101F0079890C;
+			remoteInfo = RZUtilsOSX;
+		};
+		42FB14EA1D27E2800097B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4288E4EC1A33101F0079890C;
+			remoteInfo = RZUtilsOSXTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42A5E4261D8566D40009C344 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42A5E4231D8566D40009C344 /* RZUtilsTouch.framework in Embed Frameworks */,
+				42A5E41F1D8566D40009C344 /* RZUtils.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MacroDialAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroDialAppDelegate.h; path = Classes/MacroDialAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MacroDialAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroDialAppDelegate.m; path = Classes/MacroDialAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MacroDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MacroDial_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDial_Prefix.pch; sourceTree = "<group>"; };
+		420A5BBA0F6BB62200CC9A1D /* MacroImplReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplReplace.h; path = Classes/MacroImplReplace.h; sourceTree = "<group>"; };
+		420A5BBB0F6BB62200CC9A1D /* MacroImplReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplReplace.m; path = Classes/MacroImplReplace.m; sourceTree = "<group>"; };
+		420A5BF20F6BB8F400CC9A1D /* MacroImplReplacePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplReplacePlus.h; path = Classes/MacroImplReplacePlus.h; sourceTree = "<group>"; };
+		420A5BF30F6BB8F400CC9A1D /* MacroImplReplacePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplReplacePlus.m; path = Classes/MacroImplReplacePlus.m; sourceTree = "<group>"; };
+		42104D121BA7FECB005EF53A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4210AFDF0F8107EC00D51D84 /* SetupWizardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetupWizardViewController.h; path = Classes/SetupWizardViewController.h; sourceTree = "<group>"; };
+		4210AFE00F8107EC00D51D84 /* SetupWizardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetupWizardViewController.m; path = Classes/SetupWizardViewController.m; sourceTree = "<group>"; };
+		4218EC660F50D00F00ECA686 /* RecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecentViewController.h; path = Classes/RecentViewController.h; sourceTree = "<group>"; };
+		4218EC670F50D00F00ECA686 /* RecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecentViewController.m; path = Classes/RecentViewController.m; sourceTree = "<group>"; };
+		421B98BB0F49995800857482 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = Classes/TabBarController.h; sourceTree = "<group>"; };
+		421B98BC0F49995800857482 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = Classes/TabBarController.m; sourceTree = "<group>"; };
+		421E085A1B9ED2E9007AF668 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Classes/Macros.h; sourceTree = "<group>"; };
+		4220B33D0F542F58009BAB9B /* MacroImplAddVarSuffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplAddVarSuffix.h; path = Classes/MacroImplAddVarSuffix.h; sourceTree = "<group>"; };
+		4220B33E0F542F58009BAB9B /* MacroImplAddVarSuffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplAddVarSuffix.m; path = Classes/MacroImplAddVarSuffix.m; sourceTree = "<group>"; };
+		42285B4D0F4FE228007DF3F8 /* DialControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialControllerProtocol.h; path = Classes/DialControllerProtocol.h; sourceTree = "<group>"; };
+		42285B4E0F4FE228007DF3F8 /* DialControllerProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialControllerProtocol.m; path = Classes/DialControllerProtocol.m; sourceTree = "<group>"; };
+		422B83031BA2E2990018FE91 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		422C7EAB0F6D43B3001B13F6 /* MacroVariablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroVariablesViewController.h; path = Classes/MacroVariablesViewController.h; sourceTree = "<group>"; };
+		422C7EAC0F6D43B3001B13F6 /* MacroVariablesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroVariablesViewController.m; path = Classes/MacroVariablesViewController.m; sourceTree = "<group>"; };
+		422DF1330FD958F6001FFD08 /* FindWhereIAm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindWhereIAm.h; path = Classes/FindWhereIAm.h; sourceTree = "<group>"; };
+		422DF1340FD958F6001FFD08 /* FindWhereIAm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FindWhereIAm.m; path = Classes/FindWhereIAm.m; sourceTree = "<group>"; };
+		422DF1AF0FD96650001FFD08 /* RemoteDownloadLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteDownloadLocation.h; path = Classes/RemoteDownloadLocation.h; sourceTree = "<group>"; };
+		422DF1B00FD96650001FFD08 /* RemoteDownloadLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteDownloadLocation.m; path = Classes/RemoteDownloadLocation.m; sourceTree = "<group>"; };
+		423182A50F9786D7003DACE0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		423700000F448EA100624FDE /* MacroImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImpl.h; path = Classes/MacroImpl.h; sourceTree = "<group>"; };
+		423700010F448EA100624FDE /* MacroImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImpl.m; path = Classes/MacroImpl.m; sourceTree = "<group>"; };
+		423700330F459C2700624FDE /* MacroImplAddPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplAddPrefix.h; path = Classes/MacroImplAddPrefix.h; sourceTree = "<group>"; };
+		423700340F459C2700624FDE /* MacroImplAddPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplAddPrefix.m; path = Classes/MacroImplAddPrefix.m; sourceTree = "<group>"; };
+		4237020B0F45C38100624FDE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4237020C0F45C38100624FDE /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4237FF7E0F44887100624FDE /* MacroNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroNode.h; path = Classes/MacroNode.h; sourceTree = "<group>"; };
+		4237FF7F0F44887100624FDE /* MacroNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroNode.m; path = Classes/MacroNode.m; sourceTree = "<group>"; };
+		4237FF830F44892800624FDE /* MacroXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroXMLParser.h; path = Classes/MacroXMLParser.h; sourceTree = "<group>"; };
+		4237FF840F44892800624FDE /* MacroXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroXMLParser.m; path = Classes/MacroXMLParser.m; sourceTree = "<group>"; };
+		423A120B0FC94D730058755C /* RemoteUploadPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteUploadPackage.h; path = Classes/RemoteUploadPackage.h; sourceTree = "<group>"; };
+		423A120C0FC94D730058755C /* RemoteUploadPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteUploadPackage.m; path = Classes/RemoteUploadPackage.m; sourceTree = "<group>"; };
+		423BBE920F7916E000AC76CC /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		42470C5E0FBD8AD700F83545 /* WebUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebUploadViewController.h; path = Classes/WebUploadViewController.h; sourceTree = "<group>"; };
+		42470C5F0FBD8AD700F83545 /* WebUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebUploadViewController.m; path = Classes/WebUploadViewController.m; sourceTree = "<group>"; };
+		42470CD30FC2ECF200F83545 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42470CD70FC2ECFB00F83545 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		424938190FF7241700D6B316 /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugViewController.h; path = Classes/DebugViewController.h; sourceTree = "<group>"; };
+		4249381A0FF7241700D6B316 /* DebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugViewController.m; path = Classes/DebugViewController.m; sourceTree = "<group>"; };
+		424938EA0FF9115900D6B316 /* DebugUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugUsageViewController.h; path = Classes/DebugUsageViewController.h; sourceTree = "<group>"; };
+		424938EB0FF9115900D6B316 /* DebugUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugUsageViewController.m; path = Classes/DebugUsageViewController.m; sourceTree = "<group>"; };
+		424DFBCF0F7127790091F0E0 /* MacroImplPausePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplPausePrefix.h; path = Classes/MacroImplPausePrefix.h; sourceTree = "<group>"; };
+		424DFBD00F7127790091F0E0 /* MacroImplPausePrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplPausePrefix.m; path = Classes/MacroImplPausePrefix.m; sourceTree = "<group>"; };
+		424DFBD60F7128350091F0E0 /* MacroImplPauseSuffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplPauseSuffix.h; path = Classes/MacroImplPauseSuffix.h; sourceTree = "<group>"; };
+		424DFBD70F7128350091F0E0 /* MacroImplPauseSuffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplPauseSuffix.m; path = Classes/MacroImplPauseSuffix.m; sourceTree = "<group>"; };
+		424DFBE70F71489A0091F0E0 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = Classes/ScheduleViewController.h; sourceTree = "<group>"; };
+		424DFBE80F71489A0091F0E0 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = Classes/ScheduleViewController.m; sourceTree = "<group>"; };
+		424DFD370F72A1510091F0E0 /* WebListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebListViewController.h; path = Classes/WebListViewController.h; sourceTree = "<group>"; };
+		424DFD380F72A1510091F0E0 /* WebListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebListViewController.m; path = Classes/WebListViewController.m; sourceTree = "<group>"; };
+		424DFF380F73E9DB0091F0E0 /* WebCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebCodeViewController.h; path = Classes/WebCodeViewController.h; sourceTree = "<group>"; };
+		424DFF390F73E9DB0091F0E0 /* WebCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebCodeViewController.m; path = Classes/WebCodeViewController.m; sourceTree = "<group>"; };
+		424DFFDC0F73FD270091F0E0 /* MacroImplReplacePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplReplacePrefix.h; path = Classes/MacroImplReplacePrefix.h; sourceTree = "<group>"; };
+		424DFFDD0F73FD270091F0E0 /* MacroImplReplacePrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplReplacePrefix.m; path = Classes/MacroImplReplacePrefix.m; sourceTree = "<group>"; };
+		424DFFE10F73FD810091F0E0 /* MacroImplReplaceSuffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplReplaceSuffix.h; path = Classes/MacroImplReplaceSuffix.h; sourceTree = "<group>"; };
+		424DFFE20F73FD810091F0E0 /* MacroImplReplaceSuffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplReplaceSuffix.m; path = Classes/MacroImplReplaceSuffix.m; sourceTree = "<group>"; };
+		4256F7D50F74893900C12E77 /* CHECKLISTS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHECKLISTS; path = docs/CHECKLISTS; sourceTree = "<group>"; };
+		4256F7D60F74893900C12E77 /* SQL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SQL; path = docs/SQL; sourceTree = "<group>"; };
+		4256F7D70F74893900C12E77 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO; path = docs/TODO; sourceTree = "<group>"; };
+		4256F7D80F74893900C12E77 /* VERSIONS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VERSIONS; path = docs/VERSIONS; sourceTree = "<group>"; };
+		42585BB90F6D676800ABD042 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		42595F220F49B4D900BEC106 /* ContactTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactTableDataSource.h; path = Classes/ContactTableDataSource.h; sourceTree = "<group>"; };
+		42595F230F49B4D900BEC106 /* ContactTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactTableDataSource.m; path = Classes/ContactTableDataSource.m; sourceTree = "<group>"; };
+		42595FA70F49C02C00BEC106 /* MacroTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroTableDataSource.h; path = Classes/MacroTableDataSource.h; sourceTree = "<group>"; };
+		42595FA80F49C02C00BEC106 /* MacroTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroTableDataSource.m; path = Classes/MacroTableDataSource.m; sourceTree = "<group>"; };
+		425D66A30F67159800EA0EFB /* MacroNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroNameViewController.h; path = Classes/MacroNameViewController.h; sourceTree = "<group>"; };
+		425D66A40F67159800EA0EFB /* MacroNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroNameViewController.m; path = Classes/MacroNameViewController.m; sourceTree = "<group>"; };
+		4263DD090F864E2E00C07208 /* RemoteDownloadPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteDownloadPackage.h; path = Classes/RemoteDownloadPackage.h; sourceTree = "<group>"; };
+		4263DD0A0F864E2E00C07208 /* RemoteDownloadPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteDownloadPackage.m; path = Classes/RemoteDownloadPackage.m; sourceTree = "<group>"; };
+		4265D16C0FECB05A00E4C7DB /* UsageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsageData.h; path = Classes/UsageData.h; sourceTree = "<group>"; };
+		4265D16D0FECB05A00E4C7DB /* UsageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsageData.m; path = Classes/UsageData.m; sourceTree = "<group>"; };
+		4267DB151234F97600FB1956 /* WebURLroznet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebURLroznet.h; path = Classes/WebURLroznet.h; sourceTree = "<group>"; };
+		4267DB161234F97600FB1956 /* WebURLroznet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebURLroznet.m; path = Classes/WebURLroznet.m; sourceTree = "<group>"; };
+		426C96330F61F87500F61CE3 /* TabControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabControllerProtocol.h; path = Classes/TabControllerProtocol.h; sourceTree = "<group>"; };
+		426C96340F61F87500F61CE3 /* TabControllerProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabControllerProtocol.m; path = Classes/TabControllerProtocol.m; sourceTree = "<group>"; };
+		426F3B751BA5C088002202EC /* macrodialtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macrodialtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F3B831BA5C088002202EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426F3B861BA5C088002202EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426F3B881BA5C088002202EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426F3B901BA5C299002202EC /* AppGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppGlobals.h; path = src/AppGlobals.h; sourceTree = "<group>"; };
+		426F3B911BA5C299002202EC /* AppGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppGlobals.m; path = src/AppGlobals.m; sourceTree = "<group>"; };
+		426F3B921BA5C299002202EC /* ConfigTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigTests.m; path = src/ConfigTests.m; sourceTree = "<group>"; };
+		426F3B931BA5C299002202EC /* DatabaseTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseTests.h; path = src/DatabaseTests.h; sourceTree = "<group>"; };
+		426F3B941BA5C299002202EC /* DatabaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseTests.m; path = src/DatabaseTests.m; sourceTree = "<group>"; };
+		426F3B951BA5C299002202EC /* InfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoTests.m; path = src/InfoTests.m; sourceTree = "<group>"; };
+		426F3B961BA5C299002202EC /* MacroDialTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroDialTestAppDelegate.h; path = src/MacroDialTestAppDelegate.h; sourceTree = "<group>"; };
+		426F3B971BA5C299002202EC /* MacroDialTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroDialTestAppDelegate.m; path = src/MacroDialTestAppDelegate.m; sourceTree = "<group>"; };
+		426F3B981BA5C299002202EC /* MacroDialTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroDialTestViewController.h; path = src/MacroDialTestViewController.h; sourceTree = "<group>"; };
+		426F3B991BA5C299002202EC /* MacroDialTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroDialTestViewController.m; path = src/MacroDialTestViewController.m; sourceTree = "<group>"; };
+		426F3B9A1BA5C299002202EC /* MacroHandlerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroHandlerTests.h; path = src/MacroHandlerTests.h; sourceTree = "<group>"; };
+		426F3B9B1BA5C299002202EC /* MacroHandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroHandlerTests.m; path = src/MacroHandlerTests.m; sourceTree = "<group>"; };
+		426F3B9C1BA5C299002202EC /* MacroTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroTests.h; path = src/MacroTests.h; sourceTree = "<group>"; };
+		426F3B9D1BA5C299002202EC /* MacroTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroTests.m; path = src/MacroTests.m; sourceTree = "<group>"; };
+		426F3B9E1BA5C299002202EC /* PhoneNumberTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumberTests.h; path = src/PhoneNumberTests.h; sourceTree = "<group>"; };
+		426F3B9F1BA5C299002202EC /* PhoneNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumberTests.m; path = src/PhoneNumberTests.m; sourceTree = "<group>"; };
+		426F3BA01BA5C299002202EC /* WebMacrosTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebMacrosTests.h; path = src/WebMacrosTests.h; sourceTree = "<group>"; };
+		426F3BA11BA5C299002202EC /* WebMacrosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebMacrosTests.m; path = src/WebMacrosTests.m; sourceTree = "<group>"; };
+		426F3BA21BA5C299002202EC /* ConfigTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigTests.h; path = src/ConfigTests.h; sourceTree = "<group>"; };
+		426F3BA31BA5C299002202EC /* InfoTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoTests.h; path = src/InfoTests.h; sourceTree = "<group>"; };
+		426F3BAE1BA5C2B0002202EC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		426F3BAF1BA5C2B0002202EC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426F3BB01BA5C2B0002202EC /* DialMacroIconTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DialMacroIconTest.png; sourceTree = "<group>"; };
+		426F3BB11BA5C2B0002202EC /* info.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = info.db; sourceTree = "<group>"; };
+		426F3BB21BA5C2B0002202EC /* MacroDialTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDialTest_Prefix.pch; sourceTree = "<group>"; };
+		426F3BB41BA5C2B0002202EC /* macros_test.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = macros_test.db; sourceTree = "<group>"; };
+		426F3C0E1BA5C836002202EC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		42737DE10FE14C6000B443BA /* info.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = info.db; sourceTree = "<group>"; };
+		42737DE50FE14C9500B443BA /* InfoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoDatabase.h; path = Classes/InfoDatabase.h; sourceTree = "<group>"; };
+		42737DE60FE14C9500B443BA /* InfoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoDatabase.m; path = Classes/InfoDatabase.m; sourceTree = "<group>"; };
+		427B2F060F5BDAA900B53CC1 /* MacroImplRemovePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplRemovePlus.h; path = Classes/MacroImplRemovePlus.h; sourceTree = "<group>"; };
+		427B2F070F5BDAA900B53CC1 /* MacroImplRemovePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplRemovePlus.m; path = Classes/MacroImplRemovePlus.m; sourceTree = "<group>"; };
+		427B2F0C0F5BDB5800B53CC1 /* MacroImplFirstDigits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplFirstDigits.h; path = Classes/MacroImplFirstDigits.h; sourceTree = "<group>"; };
+		427B2F0D0F5BDB5800B53CC1 /* MacroImplFirstDigits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplFirstDigits.m; path = Classes/MacroImplFirstDigits.m; sourceTree = "<group>"; };
+		427B33F00F5EBDBD00B53CC1 /* MacroImplHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplHandler.h; path = Classes/MacroImplHandler.h; sourceTree = "<group>"; };
+		427B33F10F5EBDBD00B53CC1 /* MacroImplHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplHandler.m; path = Classes/MacroImplHandler.m; sourceTree = "<group>"; };
+		427D30F317EE5C3700AB4220 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MacroDial/Images.xcassets; sourceTree = "<group>"; };
+		4281E9770F6F3B7D00D93D7B /* MacroImplNoOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplNoOp.h; path = Classes/MacroImplNoOp.h; sourceTree = "<group>"; };
+		4281E9780F6F3B7D00D93D7B /* MacroImplNoOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplNoOp.m; path = Classes/MacroImplNoOp.m; sourceTree = "<group>"; };
+		4285B8120F52EB91008D6F3C /* MacroOrganizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroOrganizer.h; path = Classes/MacroOrganizer.h; sourceTree = "<group>"; };
+		4285B8130F52EB91008D6F3C /* MacroOrganizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroOrganizer.m; path = Classes/MacroOrganizer.m; sourceTree = "<group>"; };
+		4285B8250F52F1E3008D6F3C /* AppGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppGlobals.h; path = Classes/AppGlobals.h; sourceTree = "<group>"; };
+		4285B8260F52F1E3008D6F3C /* AppGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppGlobals.m; path = Classes/AppGlobals.m; sourceTree = "<group>"; };
+		4285B8C20F530162008D6F3C /* macros.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = macros.db; sourceTree = "<group>"; };
+		4285B9040F5306B2008D6F3C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		428A6A2A0F5906330085EC0C /* MacroEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroEditViewController.h; path = Classes/MacroEditViewController.h; sourceTree = "<group>"; };
+		428A6A2B0F5906330085EC0C /* MacroEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroEditViewController.m; path = Classes/MacroEditViewController.m; sourceTree = "<group>"; };
+		428AC2D61D8566370005663E /* MacroDial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacroDial-Bridging-Header.h"; sourceTree = "<group>"; };
+		428AC2D71D8566370005663E /* macrodialtest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macrodialtest-Bridging-Header.h"; sourceTree = "<group>"; };
+		428AC2D81D8566370005663E /* MacroEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MacroEmpty.swift; path = Classes/MacroEmpty.swift; sourceTree = "<group>"; };
+		42991A5620022CD000D19F6D /* SearchableTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchableTableController.h; path = Classes/SearchableTableController.h; sourceTree = "<group>"; };
+		42991A5720022CD000D19F6D /* FieldValuePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FieldValuePreviewCell.m; path = Classes/FieldValuePreviewCell.m; sourceTree = "<group>"; };
+		42991A5820022CD000D19F6D /* SearchableTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchableTableController.m; path = Classes/SearchableTableController.m; sourceTree = "<group>"; };
+		42991A5920022CD000D19F6D /* FieldValuePreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FieldValuePreviewCell.h; path = Classes/FieldValuePreviewCell.h; sourceTree = "<group>"; };
+		429AC3890F62197100CCCDE4 /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchCell.h; path = Classes/SwitchCell.h; sourceTree = "<group>"; };
+		429AC38A0F62197100CCCDE4 /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchCell.m; path = Classes/SwitchCell.m; sourceTree = "<group>"; };
+		429AC38E0F621A4200CCCDE4 /* FeedbackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackCell.h; path = Classes/FeedbackCell.h; sourceTree = "<group>"; };
+		429AC38F0F621A4200CCCDE4 /* FeedbackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackCell.m; path = Classes/FeedbackCell.m; sourceTree = "<group>"; };
+		429AC3930F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedbackCellDelegateProtocol.h; path = Classes/FeedbackCellDelegateProtocol.h; sourceTree = "<group>"; };
+		429AC3940F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedbackCellDelegateProtocol.m; path = Classes/FeedbackCellDelegateProtocol.m; sourceTree = "<group>"; };
+		429AC3D50F622B7500CCCDE4 /* TextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextInputCell.h; path = Classes/TextInputCell.h; sourceTree = "<group>"; };
+		429AC3D60F622B7500CCCDE4 /* TextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextInputCell.m; path = Classes/TextInputCell.m; sourceTree = "<group>"; };
+		429AC5070F6289E300CCCDE4 /* MacroListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroListController.h; path = Classes/MacroListController.h; sourceTree = "<group>"; };
+		429AC5080F6289E300CCCDE4 /* MacroListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroListController.m; path = Classes/MacroListController.m; sourceTree = "<group>"; };
+		429AC5740F63274C00CCCDE4 /* MacroImplViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplViewController.h; path = Classes/MacroImplViewController.h; sourceTree = "<group>"; };
+		429AC5750F63274C00CCCDE4 /* MacroImplViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplViewController.m; path = Classes/MacroImplViewController.m; sourceTree = "<group>"; };
+		429AC5830F635EA100CCCDE4 /* MacroImplTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplTypeViewController.h; path = Classes/MacroImplTypeViewController.h; sourceTree = "<group>"; };
+		429AC5840F635EA100CCCDE4 /* MacroImplTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplTypeViewController.m; path = Classes/MacroImplTypeViewController.m; sourceTree = "<group>"; };
+		42A189CC0F61662300B9F46D /* RecentCallsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecentCallsDataSource.h; path = Classes/RecentCallsDataSource.h; sourceTree = "<group>"; };
+		42A189CD0F61662300B9F46D /* RecentCallsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecentCallsDataSource.m; path = Classes/RecentCallsDataSource.m; sourceTree = "<group>"; };
+		42A189D10F61673000B9F46D /* RecentCallRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecentCallRecord.h; path = Classes/RecentCallRecord.h; sourceTree = "<group>"; };
+		42A189D20F61673000B9F46D /* RecentCallRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecentCallRecord.m; path = Classes/RecentCallRecord.m; sourceTree = "<group>"; };
+		42A18A5C0F617D1200B9F46D /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigViewController.h; path = Classes/ConfigViewController.h; sourceTree = "<group>"; };
+		42A18A5D0F617D1200B9F46D /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigViewController.m; path = Classes/ConfigViewController.m; sourceTree = "<group>"; };
+		42A3DB2317C32DC900CF4FF0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42BEFE440F44791700DB3590 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumber.h; path = Classes/PhoneNumber.h; sourceTree = "<group>"; };
+		42BEFE450F44791700DB3590 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumber.m; path = Classes/PhoneNumber.m; sourceTree = "<group>"; };
+		42BEFE5C0F447AC600DB3590 /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialViewController.h; path = Classes/DialViewController.h; sourceTree = "<group>"; };
+		42BEFE5D0F447AC600DB3590 /* DialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialViewController.m; path = Classes/DialViewController.m; sourceTree = "<group>"; };
+		42C61CAD0F8275FF00B9491A /* RemoteDownloadList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteDownloadList.h; path = Classes/RemoteDownloadList.h; sourceTree = "<group>"; };
+		42C61CAE0F8275FF00B9491A /* RemoteDownloadList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteDownloadList.m; path = Classes/RemoteDownloadList.m; sourceTree = "<group>"; };
+		42C91B040F543EAE009B580D /* MacroImplAddSuffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplAddSuffix.h; path = Classes/MacroImplAddSuffix.h; sourceTree = "<group>"; };
+		42C91B050F543EAE009B580D /* MacroImplAddSuffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplAddSuffix.m; path = Classes/MacroImplAddSuffix.m; sourceTree = "<group>"; };
+		42C91B090F543ECF009B580D /* MacroImplAddVarPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplAddVarPrefix.h; path = Classes/MacroImplAddVarPrefix.h; sourceTree = "<group>"; };
+		42C91B0A0F543ECF009B580D /* MacroImplAddVarPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplAddVarPrefix.m; path = Classes/MacroImplAddVarPrefix.m; sourceTree = "<group>"; };
+		42C9A42C0F66997D008BC471 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConstants.h; path = Classes/AppConstants.h; sourceTree = "<group>"; };
+		42CB6D370F4EEA0A006CDCE7 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42CB6D3B0F4EEA28006CDCE7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42CB6D7E0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplRemoveCountryCode.h; path = Classes/MacroImplRemoveCountryCode.h; sourceTree = "<group>"; };
+		42CB6D7F0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplRemoveCountryCode.m; path = Classes/MacroImplRemoveCountryCode.m; sourceTree = "<group>"; };
+		42CB91D6134605AF006298D6 /* MacroImplReplaceRegexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplReplaceRegexp.h; path = Classes/MacroImplReplaceRegexp.h; sourceTree = "<group>"; };
+		42CB91D7134605AF006298D6 /* MacroImplReplaceRegexp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplReplaceRegexp.m; path = Classes/MacroImplReplaceRegexp.m; sourceTree = "<group>"; };
+		42CDDF260F67D609008806C7 /* NavigationControllerWithRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationControllerWithRefresh.h; path = Classes/NavigationControllerWithRefresh.h; sourceTree = "<group>"; };
+		42CDDF270F67D609008806C7 /* NavigationControllerWithRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationControllerWithRefresh.m; path = Classes/NavigationControllerWithRefresh.m; sourceTree = "<group>"; };
+		42CDDF2D0F67D857008806C7 /* RefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshProtocol.h; path = Classes/RefreshProtocol.h; sourceTree = "<group>"; };
+		42CDDF2E0F67D857008806C7 /* RefreshProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshProtocol.m; path = Classes/RefreshProtocol.m; sourceTree = "<group>"; };
+		42CDDF930F694E1E008806C7 /* MacroAutoLearner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroAutoLearner.h; path = Classes/MacroAutoLearner.h; sourceTree = "<group>"; };
+		42CDDF940F694E1E008806C7 /* MacroAutoLearner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroAutoLearner.m; path = Classes/MacroAutoLearner.m; sourceTree = "<group>"; };
+		42D8CDB00FE5EEF400186D5B /* PhoneNumberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneNumberInfo.h; path = Classes/PhoneNumberInfo.h; sourceTree = "<group>"; };
+		42D8CDB10FE5EEF400186D5B /* PhoneNumberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneNumberInfo.m; path = Classes/PhoneNumberInfo.m; sourceTree = "<group>"; };
+		42D9F47A0F50040B00FA13EE /* MacroImplLastDigits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplLastDigits.h; path = Classes/MacroImplLastDigits.h; sourceTree = "<group>"; };
+		42D9F47B0F50040B00FA13EE /* MacroImplLastDigits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplLastDigits.m; path = Classes/MacroImplLastDigits.m; sourceTree = "<group>"; };
+		42EE6F290FD1494000E98838 /* HtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HtmlViewController.h; path = Classes/HtmlViewController.h; sourceTree = "<group>"; };
+		42EE6F2A0FD1494000E98838 /* HtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HtmlViewController.m; path = Classes/HtmlViewController.m; sourceTree = "<group>"; };
+		42EE6F800FD1E5D700E98838 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = docs/about.html; sourceTree = "<group>"; };
+		42EE6F840FD1E5EA00E98838 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = help.html; path = docs/help.html; sourceTree = "<group>"; };
+		42EE6FA30FD1EA0E00E98838 /* app.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = app.css; path = docs/app.css; sourceTree = "<group>"; };
+		42EE6FB30FD1F1AA00E98838 /* beforeupload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = beforeupload.html; path = docs/beforeupload.html; sourceTree = "<group>"; };
+		42EEB06E0F64B0F80070F56D /* MacroImplRemovePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplRemovePrefix.h; path = Classes/MacroImplRemovePrefix.h; sourceTree = "<group>"; };
+		42EEB06F0F64B0F80070F56D /* MacroImplRemovePrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplRemovePrefix.m; path = Classes/MacroImplRemovePrefix.m; sourceTree = "<group>"; };
+		42EEB0730F64B1CA0070F56D /* MacroImplRemoveSuffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroImplRemoveSuffix.h; path = Classes/MacroImplRemoveSuffix.h; sourceTree = "<group>"; };
+		42EEB0740F64B1CA0070F56D /* MacroImplRemoveSuffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroImplRemoveSuffix.m; path = Classes/MacroImplRemoveSuffix.m; sourceTree = "<group>"; };
+		42EEB9491B9E3E440085EA75 /* icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icons.xcassets; sourceTree = "<group>"; };
+		42EEB94B1B9E40D80085EA75 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FACBE80FCE4BA00037DDF4 /* MacroListPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroListPickerViewController.h; path = Classes/MacroListPickerViewController.h; sourceTree = "<group>"; };
+		42FACBE90FCE4BA00037DDF4 /* MacroListPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacroListPickerViewController.m; path = Classes/MacroListPickerViewController.m; sourceTree = "<group>"; };
+		42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RZUtils.xcodeproj; path = RZUtils/RZUtils.xcodeproj; sourceTree = "<group>"; };
+		42FE3D7E101B1F2F0059710F /* DebugDictArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugDictArrayViewController.h; path = Classes/DebugDictArrayViewController.h; sourceTree = "<group>"; };
+		42FE3D7F101B1F2F0059710F /* DebugDictArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugDictArrayViewController.m; path = Classes/DebugDictArrayViewController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420622601D3B6D1E0013A45E /* RZUtilsTouch.framework in Frameworks */,
+				42104D131BA7FECB005EF53A /* QuartzCore.framework in Frameworks */,
+				422B83041BA2E2990018FE91 /* StoreKit.framework in Frameworks */,
+				42A5E41E1D8566D40009C344 /* RZUtils.framework in Frameworks */,
+				42A3DB2417C32DC900CF4FF0 /* Security.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				4237020D0F45C38100624FDE /* AddressBook.framework in Frameworks */,
+				4237020E0F45C38100624FDE /* AddressBookUI.framework in Frameworks */,
+				4285B9050F5306B2008D6F3C /* libsqlite3.0.dylib in Frameworks */,
+				42470CD40FC2ECF200F83545 /* SystemConfiguration.framework in Frameworks */,
+				42470CD80FC2ECFB00F83545 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F3B721BA5C088002202EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42991A5C20022CED00D19F6D /* RZUtilsTestInfra.framework in Frameworks */,
+				420622611D3B6DA50013A45E /* RZUtilsTouch.framework in Frameworks */,
+				426F3C0F1BA5C836002202EC /* libsqlite3.0.tbd in Frameworks */,
+				423D5C1F1D27ED4B0068D9CE /* RZUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MacroDial.app */,
+				426F3B751BA5C088002202EC /* macrodialtest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */,
+				426F3B8E1BA5C0D3002202EC /* App */,
+				426F3B761BA5C088002202EC /* Tests */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MacroDial_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42EEB9491B9E3E440085EA75 /* icons.xcassets */,
+				427D30F317EE5C3700AB4220 /* Images.xcassets */,
+				42EE6F7D0FD1E5BD00E98838 /* Html */,
+				42A189370F6158CA00B9F46D /* Databases */,
+				42D9F4840F50061100FA13EE /* Documents */,
+				42CB6D360F4EEA0A006CDCE7 /* Localizable.strings */,
+				42EEB94B1B9E40D80085EA75 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42104D121BA7FECB005EF53A /* QuartzCore.framework */,
+				426F3C0E1BA5C836002202EC /* libsqlite3.0.tbd */,
+				422B83031BA2E2990018FE91 /* StoreKit.framework */,
+				42A3DB2317C32DC900CF4FF0 /* Security.framework */,
+				42470CD30FC2ECF200F83545 /* SystemConfiguration.framework */,
+				42470CD70FC2ECFB00F83545 /* CoreLocation.framework */,
+				4285B9040F5306B2008D6F3C /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				4237020B0F45C38100624FDE /* AddressBook.framework */,
+				4237020C0F45C38100624FDE /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4210AFC10F7F64B000D51D84 /* SetupWizard */ = {
+			isa = PBXGroup;
+			children = (
+				4210AFDF0F8107EC00D51D84 /* SetupWizardViewController.h */,
+				4210AFE00F8107EC00D51D84 /* SetupWizardViewController.m */,
+			);
+			name = SetupWizard;
+			sourceTree = "<group>";
+		};
+		4218EC630F50CFCB00ECA686 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				4218EC660F50D00F00ECA686 /* RecentViewController.h */,
+				4218EC670F50D00F00ECA686 /* RecentViewController.m */,
+			);
+			name = Recent;
+			sourceTree = "<group>";
+		};
+		42285B450F4FE1ED007DF3F8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				426C96330F61F87500F61CE3 /* TabControllerProtocol.h */,
+				426C96340F61F87500F61CE3 /* TabControllerProtocol.m */,
+				42285B4D0F4FE228007DF3F8 /* DialControllerProtocol.h */,
+				42285B4E0F4FE228007DF3F8 /* DialControllerProtocol.m */,
+				429AC3930F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.h */,
+				429AC3940F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.m */,
+				42C9A42C0F66997D008BC471 /* AppConstants.h */,
+				42CDDF2D0F67D857008806C7 /* RefreshProtocol.h */,
+				42CDDF2E0F67D857008806C7 /* RefreshProtocol.m */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		423700380F459C8C00624FDE /* MacroImpl */ = {
+			isa = PBXGroup;
+			children = (
+				420A5BBA0F6BB62200CC9A1D /* MacroImplReplace.h */,
+				420A5BF20F6BB8F400CC9A1D /* MacroImplReplacePlus.h */,
+				420A5BF30F6BB8F400CC9A1D /* MacroImplReplacePlus.m */,
+				420A5BBB0F6BB62200CC9A1D /* MacroImplReplace.m */,
+				42EEB0730F64B1CA0070F56D /* MacroImplRemoveSuffix.h */,
+				42EEB0740F64B1CA0070F56D /* MacroImplRemoveSuffix.m */,
+				427B2F0C0F5BDB5800B53CC1 /* MacroImplFirstDigits.h */,
+				427B2F0D0F5BDB5800B53CC1 /* MacroImplFirstDigits.m */,
+				427B2F060F5BDAA900B53CC1 /* MacroImplRemovePlus.h */,
+				427B2F070F5BDAA900B53CC1 /* MacroImplRemovePlus.m */,
+				42C91B090F543ECF009B580D /* MacroImplAddVarPrefix.h */,
+				42C91B0A0F543ECF009B580D /* MacroImplAddVarPrefix.m */,
+				42D9F47A0F50040B00FA13EE /* MacroImplLastDigits.h */,
+				424DFBCF0F7127790091F0E0 /* MacroImplPausePrefix.h */,
+				424DFBD00F7127790091F0E0 /* MacroImplPausePrefix.m */,
+				42D9F47B0F50040B00FA13EE /* MacroImplLastDigits.m */,
+				42CB6D7E0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.h */,
+				42CB6D7F0F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m */,
+				423700330F459C2700624FDE /* MacroImplAddPrefix.h */,
+				423700340F459C2700624FDE /* MacroImplAddPrefix.m */,
+				42C91B040F543EAE009B580D /* MacroImplAddSuffix.h */,
+				42C91B050F543EAE009B580D /* MacroImplAddSuffix.m */,
+				4220B33D0F542F58009BAB9B /* MacroImplAddVarSuffix.h */,
+				4220B33E0F542F58009BAB9B /* MacroImplAddVarSuffix.m */,
+				42EEB06E0F64B0F80070F56D /* MacroImplRemovePrefix.h */,
+				42EEB06F0F64B0F80070F56D /* MacroImplRemovePrefix.m */,
+				4281E9770F6F3B7D00D93D7B /* MacroImplNoOp.h */,
+				4281E9780F6F3B7D00D93D7B /* MacroImplNoOp.m */,
+				424DFBD60F7128350091F0E0 /* MacroImplPauseSuffix.h */,
+				424DFBD70F7128350091F0E0 /* MacroImplPauseSuffix.m */,
+				424DFFDC0F73FD270091F0E0 /* MacroImplReplacePrefix.h */,
+				424DFFDD0F73FD270091F0E0 /* MacroImplReplacePrefix.m */,
+				424DFFE10F73FD810091F0E0 /* MacroImplReplaceSuffix.h */,
+				424DFFE20F73FD810091F0E0 /* MacroImplReplaceSuffix.m */,
+				42CB91D6134605AF006298D6 /* MacroImplReplaceRegexp.h */,
+				42CB91D7134605AF006298D6 /* MacroImplReplaceRegexp.m */,
+			);
+			name = MacroImpl;
+			sourceTree = "<group>";
+		};
+		424938160FF723C700D6B316 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				424938190FF7241700D6B316 /* DebugViewController.h */,
+				4249381A0FF7241700D6B316 /* DebugViewController.m */,
+				424938EA0FF9115900D6B316 /* DebugUsageViewController.h */,
+				424938EB0FF9115900D6B316 /* DebugUsageViewController.m */,
+				42FE3D7E101B1F2F0059710F /* DebugDictArrayViewController.h */,
+				42FE3D7F101B1F2F0059710F /* DebugDictArrayViewController.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		424DFBE40F71486B0091F0E0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				424DFBE70F71489A0091F0E0 /* ScheduleViewController.h */,
+				424DFBE80F71489A0091F0E0 /* ScheduleViewController.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		4257B2880F446D5900BC5E18 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				42991A5920022CD000D19F6D /* FieldValuePreviewCell.h */,
+				42991A5720022CD000D19F6D /* FieldValuePreviewCell.m */,
+				42991A5620022CD000D19F6D /* SearchableTableController.h */,
+				42991A5820022CD000D19F6D /* SearchableTableController.m */,
+				424938160FF723C700D6B316 /* Debug */,
+				4210AFC10F7F64B000D51D84 /* SetupWizard */,
+				424DFBE40F71486B0091F0E0 /* Schedule */,
+				429AC3860F62192D00CCCDE4 /* Reusable Elements */,
+				428A6A2F0F5906A20085EC0C /* Config */,
+				428A6A270F5905950085EC0C /* DataSource */,
+				42FC003D0F55A16700AD0391 /* MacroEdit */,
+				4218EC630F50CFCB00ECA686 /* Recent */,
+				42595FA00F49BEF500BEC106 /* DialView */,
+				42595F9D0F49BEAB00BEC106 /* TabBar */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		4257B2890F446D6400BC5E18 /* MacroExecution */ = {
+			isa = PBXGroup;
+			children = (
+				42CDDF930F694E1E008806C7 /* MacroAutoLearner.h */,
+				42CDDF940F694E1E008806C7 /* MacroAutoLearner.m */,
+				427B33F00F5EBDBD00B53CC1 /* MacroImplHandler.h */,
+				427B33F10F5EBDBD00B53CC1 /* MacroImplHandler.m */,
+				423700010F448EA100624FDE /* MacroImpl.m */,
+				423700000F448EA100624FDE /* MacroImpl.h */,
+				4237FF830F44892800624FDE /* MacroXMLParser.h */,
+				4237FF840F44892800624FDE /* MacroXMLParser.m */,
+				4237FF7E0F44887100624FDE /* MacroNode.h */,
+				4237FF7F0F44887100624FDE /* MacroNode.m */,
+			);
+			name = MacroExecution;
+			sourceTree = "<group>";
+		};
+		42595F9D0F49BEAB00BEC106 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				421B98BC0F49995800857482 /* TabBarController.m */,
+				421B98BB0F49995800857482 /* TabBarController.h */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		42595FA00F49BEF500BEC106 /* DialView */ = {
+			isa = PBXGroup;
+			children = (
+				42BEFE5C0F447AC600DB3590 /* DialViewController.h */,
+				42BEFE5D0F447AC600DB3590 /* DialViewController.m */,
+			);
+			name = DialView;
+			sourceTree = "<group>";
+		};
+		426F3B761BA5C088002202EC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				426F3BBD1BA5C53E002202EC /* Infra */,
+				426F3BBB1BA5C2C3002202EC /* Samples */,
+				426F3B8F1BA5C1D6002202EC /* src */,
+				426F3B831BA5C088002202EC /* Assets.xcassets */,
+				426F3B881BA5C088002202EC /* Info.plist */,
+				426F3B771BA5C088002202EC /* Supporting Files */,
+			);
+			name = Tests;
+			path = macrodialtest;
+			sourceTree = "<group>";
+		};
+		426F3B771BA5C088002202EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426F3BAE1BA5C2B0002202EC /* Launch Screen.storyboard */,
+				426F3BB01BA5C2B0002202EC /* DialMacroIconTest.png */,
+				426F3BB21BA5C2B0002202EC /* MacroDialTest_Prefix.pch */,
+				426F3B851BA5C088002202EC /* LaunchScreen.storyboard */,
+				426F3BAF1BA5C2B0002202EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426F3B8E1BA5C0D3002202EC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				42285B450F4FE1ED007DF3F8 /* Protocols */,
+				4257B2880F446D5900BC5E18 /* UserInterface */,
+				4285B80F0F52EB59008D6F3C /* Database Management */,
+				42D9F4810F5005F600FA13EE /* Macros */,
+				4285B82A0F52F298008D6F3C /* AppDelegate */,
+				42C61CC40F8277F300B9491A /* Web */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		426F3B8F1BA5C1D6002202EC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				426F3B901BA5C299002202EC /* AppGlobals.h */,
+				426F3B911BA5C299002202EC /* AppGlobals.m */,
+				426F3B921BA5C299002202EC /* ConfigTests.m */,
+				426F3B931BA5C299002202EC /* DatabaseTests.h */,
+				426F3B941BA5C299002202EC /* DatabaseTests.m */,
+				426F3B951BA5C299002202EC /* InfoTests.m */,
+				426F3B961BA5C299002202EC /* MacroDialTestAppDelegate.h */,
+				426F3B971BA5C299002202EC /* MacroDialTestAppDelegate.m */,
+				426F3B981BA5C299002202EC /* MacroDialTestViewController.h */,
+				426F3B991BA5C299002202EC /* MacroDialTestViewController.m */,
+				426F3B9A1BA5C299002202EC /* MacroHandlerTests.h */,
+				426F3B9B1BA5C299002202EC /* MacroHandlerTests.m */,
+				426F3B9C1BA5C299002202EC /* MacroTests.h */,
+				426F3B9D1BA5C299002202EC /* MacroTests.m */,
+				426F3B9E1BA5C299002202EC /* PhoneNumberTests.h */,
+				426F3B9F1BA5C299002202EC /* PhoneNumberTests.m */,
+				426F3BA01BA5C299002202EC /* WebMacrosTests.h */,
+				426F3BA11BA5C299002202EC /* WebMacrosTests.m */,
+				426F3BA21BA5C299002202EC /* ConfigTests.h */,
+				426F3BA31BA5C299002202EC /* InfoTests.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		426F3BBB1BA5C2C3002202EC /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				426F3BB11BA5C2B0002202EC /* info.db */,
+				426F3BB41BA5C2B0002202EC /* macros_test.db */,
+			);
+			name = Samples;
+			sourceTree = "<group>";
+		};
+		426F3BBD1BA5C53E002202EC /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Infra;
+			sourceTree = "<group>";
+		};
+		4285B80F0F52EB59008D6F3C /* Database Management */ = {
+			isa = PBXGroup;
+			children = (
+				42A189D20F61673000B9F46D /* RecentCallRecord.m */,
+				42A189D10F61673000B9F46D /* RecentCallRecord.h */,
+				4285B8120F52EB91008D6F3C /* MacroOrganizer.h */,
+				4285B8130F52EB91008D6F3C /* MacroOrganizer.m */,
+				42737DE50FE14C9500B443BA /* InfoDatabase.h */,
+				42737DE60FE14C9500B443BA /* InfoDatabase.m */,
+				4265D16C0FECB05A00E4C7DB /* UsageData.h */,
+				4265D16D0FECB05A00E4C7DB /* UsageData.m */,
+				421E085A1B9ED2E9007AF668 /* Macros.h */,
+			);
+			name = "Database Management";
+			sourceTree = "<group>";
+		};
+		4285B82A0F52F298008D6F3C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4285B8250F52F1E3008D6F3C /* AppGlobals.h */,
+				4285B8260F52F1E3008D6F3C /* AppGlobals.m */,
+				1D3623240D0F684500981E51 /* MacroDialAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MacroDialAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		428A6A270F5905950085EC0C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				42595F220F49B4D900BEC106 /* ContactTableDataSource.h */,
+				42595F230F49B4D900BEC106 /* ContactTableDataSource.m */,
+				42595FA70F49C02C00BEC106 /* MacroTableDataSource.h */,
+				42595FA80F49C02C00BEC106 /* MacroTableDataSource.m */,
+				42A189CC0F61662300B9F46D /* RecentCallsDataSource.h */,
+				42A189CD0F61662300B9F46D /* RecentCallsDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		428A6A2F0F5906A20085EC0C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				42A18A5C0F617D1200B9F46D /* ConfigViewController.h */,
+				42A18A5D0F617D1200B9F46D /* ConfigViewController.m */,
+				424DFD370F72A1510091F0E0 /* WebListViewController.h */,
+				424DFD380F72A1510091F0E0 /* WebListViewController.m */,
+				424DFF380F73E9DB0091F0E0 /* WebCodeViewController.h */,
+				424DFF390F73E9DB0091F0E0 /* WebCodeViewController.m */,
+				42470C5E0FBD8AD700F83545 /* WebUploadViewController.h */,
+				42470C5F0FBD8AD700F83545 /* WebUploadViewController.m */,
+				42FACBE80FCE4BA00037DDF4 /* MacroListPickerViewController.h */,
+				42FACBE90FCE4BA00037DDF4 /* MacroListPickerViewController.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		429AC3860F62192D00CCCDE4 /* Reusable Elements */ = {
+			isa = PBXGroup;
+			children = (
+				429AC3890F62197100CCCDE4 /* SwitchCell.h */,
+				429AC38A0F62197100CCCDE4 /* SwitchCell.m */,
+				429AC38E0F621A4200CCCDE4 /* FeedbackCell.h */,
+				429AC38F0F621A4200CCCDE4 /* FeedbackCell.m */,
+				429AC3D50F622B7500CCCDE4 /* TextInputCell.h */,
+				429AC3D60F622B7500CCCDE4 /* TextInputCell.m */,
+				42CDDF260F67D609008806C7 /* NavigationControllerWithRefresh.h */,
+				42CDDF270F67D609008806C7 /* NavigationControllerWithRefresh.m */,
+				42EE6F290FD1494000E98838 /* HtmlViewController.h */,
+				42EE6F2A0FD1494000E98838 /* HtmlViewController.m */,
+			);
+			name = "Reusable Elements";
+			sourceTree = "<group>";
+		};
+		42A189370F6158CA00B9F46D /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				42737DE10FE14C6000B443BA /* info.db */,
+				42585BB90F6D676800ABD042 /* Entitlements.plist */,
+				423BBE920F7916E000AC76CC /* settings.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				4285B8C20F530162008D6F3C /* macros.db */,
+			);
+			name = Databases;
+			sourceTree = "<group>";
+		};
+		42C61CC40F8277F300B9491A /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				4267DB151234F97600FB1956 /* WebURLroznet.h */,
+				4267DB161234F97600FB1956 /* WebURLroznet.m */,
+				422DF1330FD958F6001FFD08 /* FindWhereIAm.h */,
+				422DF1340FD958F6001FFD08 /* FindWhereIAm.m */,
+				4263DD090F864E2E00C07208 /* RemoteDownloadPackage.h */,
+				4263DD0A0F864E2E00C07208 /* RemoteDownloadPackage.m */,
+				42C61CAE0F8275FF00B9491A /* RemoteDownloadList.m */,
+				42C61CAD0F8275FF00B9491A /* RemoteDownloadList.h */,
+				423A120B0FC94D730058755C /* RemoteUploadPackage.h */,
+				423A120C0FC94D730058755C /* RemoteUploadPackage.m */,
+				422DF1AF0FD96650001FFD08 /* RemoteDownloadLocation.h */,
+				422DF1B00FD96650001FFD08 /* RemoteDownloadLocation.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		42D8CDAD0FE5EEBC00186D5B /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				42BEFE450F44791700DB3590 /* PhoneNumber.m */,
+				42BEFE440F44791700DB3590 /* PhoneNumber.h */,
+				42D8CDB00FE5EEF400186D5B /* PhoneNumberInfo.h */,
+				42D8CDB10FE5EEF400186D5B /* PhoneNumberInfo.m */,
+			);
+			name = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		42D9F4810F5005F600FA13EE /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				42D8CDAD0FE5EEBC00186D5B /* PhoneNumber */,
+				423700380F459C8C00624FDE /* MacroImpl */,
+				4257B2890F446D6400BC5E18 /* MacroExecution */,
+				428AC2D81D8566370005663E /* MacroEmpty.swift */,
+				428AC2D61D8566370005663E /* MacroDial-Bridging-Header.h */,
+				428AC2D71D8566370005663E /* macrodialtest-Bridging-Header.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		42D9F4840F50061100FA13EE /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				4256F7D50F74893900C12E77 /* CHECKLISTS */,
+				4256F7D60F74893900C12E77 /* SQL */,
+				4256F7D70F74893900C12E77 /* TODO */,
+				4256F7D80F74893900C12E77 /* VERSIONS */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		42EE6F7D0FD1E5BD00E98838 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				42EE6FB30FD1F1AA00E98838 /* beforeupload.html */,
+				42EE6FA30FD1EA0E00E98838 /* app.css */,
+				42EE6F840FD1E5EA00E98838 /* help.html */,
+				42EE6F800FD1E5D700E98838 /* about.html */,
+			);
+			name = Html;
+			sourceTree = "<group>";
+		};
+		42FB14DE1D27E27F0097B2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FB14E51D27E2800097B2D6 /* RZUtils.framework */,
+				42FB14E71D27E2800097B2D6 /* RZUtilsTests.xctest */,
+				42BD30531F46F3600006F9F3 /* RZUtilsSwift.framework */,
+				42BD30551F46F3600006F9F3 /* RZUtilsSwiftTests.xctest */,
+				42BD30571F46F3600006F9F3 /* RZUtilsUniversal.framework */,
+				42BD30591F46F3600006F9F3 /* RZUtilsUniversalTests.xctest */,
+				42BD305B1F46F3600006F9F3 /* RZUtilsHealthkit.framework */,
+				42BD305D1F46F3600006F9F3 /* RZUtilsHealthkitTests.xctest */,
+				4206225D1D3B6D1E0013A45E /* RZUtilsTouch.framework */,
+				4206225F1D3B6D1E0013A45E /* RZUtilsTouchTests.xctest */,
+				42FB14E91D27E2800097B2D6 /* RZUtilsOSX.framework */,
+				42FB14EB1D27E2800097B2D6 /* RZUtilsOSXTests.xctest */,
+				42991A5520022A0700D19F6D /* RZUtilsTestInfra.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FC003D0F55A16700AD0391 /* MacroEdit */ = {
+			isa = PBXGroup;
+			children = (
+				422C7EAB0F6D43B3001B13F6 /* MacroVariablesViewController.h */,
+				422C7EAC0F6D43B3001B13F6 /* MacroVariablesViewController.m */,
+				428A6A2A0F5906330085EC0C /* MacroEditViewController.h */,
+				428A6A2B0F5906330085EC0C /* MacroEditViewController.m */,
+				429AC5070F6289E300CCCDE4 /* MacroListController.h */,
+				429AC5080F6289E300CCCDE4 /* MacroListController.m */,
+				429AC5740F63274C00CCCDE4 /* MacroImplViewController.h */,
+				429AC5750F63274C00CCCDE4 /* MacroImplViewController.m */,
+				429AC5830F635EA100CCCDE4 /* MacroImplTypeViewController.h */,
+				429AC5840F635EA100CCCDE4 /* MacroImplTypeViewController.m */,
+				425D66A30F67159800EA0EFB /* MacroNameViewController.h */,
+				425D66A40F67159800EA0EFB /* MacroNameViewController.m */,
+			);
+			name = MacroEdit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MacroDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MacroDial" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				42A5E4261D8566D40009C344 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A5E4211D8566D40009C344 /* PBXTargetDependency */,
+				42A5E4251D8566D40009C344 /* PBXTargetDependency */,
+			);
+			name = MacroDial;
+			productName = MacroDial;
+			productReference = 1D6058910D05DD3D006BFB54 /* MacroDial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426F3B741BA5C088002202EC /* macrodialtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426F3B8D1BA5C088002202EC /* Build configuration list for PBXNativeTarget "macrodialtest" */;
+			buildPhases = (
+				426F3B711BA5C088002202EC /* Sources */,
+				426F3B721BA5C088002202EC /* Frameworks */,
+				426F3B731BA5C088002202EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macrodialtest;
+			productName = macrodialtest;
+			productReference = 426F3B751BA5C088002202EC /* macrodialtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = M7QSSF3624;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					426F3B741BA5C088002202EC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M7QSSF3624;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroDial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				fr,
+				ja,
+				ca,
+				cs,
+				da,
+				de,
+				es,
+				fi,
+				he,
+				hu,
+				it,
+				ko,
+				nb,
+				nl,
+				pl,
+				pt,
+				ru,
+				sk,
+				sv,
+				"zh-Hans",
+				"zh-Hant",
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 42FB14DE1D27E27F0097B2D6 /* Products */;
+					ProjectRef = 42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MacroDial */,
+				426F3B741BA5C088002202EC /* macrodialtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4206225D1D3B6D1E0013A45E /* RZUtilsTouch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsTouch.framework;
+			remoteRef = 4206225C1D3B6D1E0013A45E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4206225F1D3B6D1E0013A45E /* RZUtilsTouchTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsTouchTests.xctest;
+			remoteRef = 4206225E1D3B6D1E0013A45E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42991A5520022A0700D19F6D /* RZUtilsTestInfra.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsTestInfra.framework;
+			remoteRef = 42991A5420022A0700D19F6D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD30531F46F3600006F9F3 /* RZUtilsSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsSwift.framework;
+			remoteRef = 42BD30521F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD30551F46F3600006F9F3 /* RZUtilsSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsSwiftTests.xctest;
+			remoteRef = 42BD30541F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD30571F46F3600006F9F3 /* RZUtilsUniversal.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsUniversal.framework;
+			remoteRef = 42BD30561F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD30591F46F3600006F9F3 /* RZUtilsUniversalTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsUniversalTests.xctest;
+			remoteRef = 42BD30581F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD305B1F46F3600006F9F3 /* RZUtilsHealthkit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsHealthkit.framework;
+			remoteRef = 42BD305A1F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42BD305D1F46F3600006F9F3 /* RZUtilsHealthkitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsHealthkitTests.xctest;
+			remoteRef = 42BD305C1F46F3600006F9F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42FB14E51D27E2800097B2D6 /* RZUtils.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtils.framework;
+			remoteRef = 42FB14E41D27E2800097B2D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42FB14E71D27E2800097B2D6 /* RZUtilsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsTests.xctest;
+			remoteRef = 42FB14E61D27E2800097B2D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42FB14E91D27E2800097B2D6 /* RZUtilsOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RZUtilsOSX.framework;
+			remoteRef = 42FB14E81D27E2800097B2D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		42FB14EB1D27E2800097B2D6 /* RZUtilsOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RZUtilsOSXTests.xctest;
+			remoteRef = 42FB14EA1D27E2800097B2D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB6D380F4EEA0A006CDCE7 /* Localizable.strings in Resources */,
+				4285B8C30F530162008D6F3C /* macros.db in Resources */,
+				42585BBA0F6D676800ABD042 /* Entitlements.plist in Resources */,
+				423BBE930F7916E000AC76CC /* settings.plist in Resources */,
+				427D30F417EE5C3700AB4220 /* Images.xcassets in Resources */,
+				42EEB94C1B9E40D80085EA75 /* LaunchScreen.storyboard in Resources */,
+				42EE6F810FD1E5D700E98838 /* about.html in Resources */,
+				42EE6F850FD1E5EA00E98838 /* help.html in Resources */,
+				42EE6FA40FD1EA0E00E98838 /* app.css in Resources */,
+				42EE6FB40FD1F1AA00E98838 /* beforeupload.html in Resources */,
+				42EEB94A1B9E3E440085EA75 /* icons.xcassets in Resources */,
+				42737DE20FE14C6000B443BA /* info.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F3B731BA5C088002202EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F3BB51BA5C2B0002202EC /* Launch Screen.storyboard in Resources */,
+				426F3BB71BA5C2B0002202EC /* DialMacroIconTest.png in Resources */,
+				426F3BBA1BA5C2B0002202EC /* macros_test.db in Resources */,
+				426F3B871BA5C088002202EC /* LaunchScreen.storyboard in Resources */,
+				426F3BB81BA5C2B0002202EC /* info.db in Resources */,
+				426F3B841BA5C088002202EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MacroDialAppDelegate.m in Sources */,
+				42BEFE460F44791700DB3590 /* PhoneNumber.m in Sources */,
+				42BEFE5E0F447AC600DB3590 /* DialViewController.m in Sources */,
+				4237FF800F44887100624FDE /* MacroNode.m in Sources */,
+				4237FF850F44892800624FDE /* MacroXMLParser.m in Sources */,
+				423700020F448EA100624FDE /* MacroImpl.m in Sources */,
+				423700350F459C2700624FDE /* MacroImplAddPrefix.m in Sources */,
+				421B98BD0F49995800857482 /* TabBarController.m in Sources */,
+				42595F240F49B4D900BEC106 /* ContactTableDataSource.m in Sources */,
+				42595FA90F49C02C00BEC106 /* MacroTableDataSource.m in Sources */,
+				42CB6D800F4EFAD9006CDCE7 /* MacroImplRemoveCountryCode.m in Sources */,
+				42285B4F0F4FE228007DF3F8 /* DialControllerProtocol.m in Sources */,
+				42D9F47C0F50040B00FA13EE /* MacroImplLastDigits.m in Sources */,
+				4218EC680F50D00F00ECA686 /* RecentViewController.m in Sources */,
+				4285B8140F52EB91008D6F3C /* MacroOrganizer.m in Sources */,
+				4285B8270F52F1E3008D6F3C /* AppGlobals.m in Sources */,
+				4220B33F0F542F58009BAB9B /* MacroImplAddVarSuffix.m in Sources */,
+				42C91B060F543EAE009B580D /* MacroImplAddSuffix.m in Sources */,
+				42C91B0B0F543ECF009B580D /* MacroImplAddVarPrefix.m in Sources */,
+				428AC2D91D8566370005663E /* MacroEmpty.swift in Sources */,
+				428A6A2C0F5906330085EC0C /* MacroEditViewController.m in Sources */,
+				427B2F080F5BDAA900B53CC1 /* MacroImplRemovePlus.m in Sources */,
+				427B2F0E0F5BDB5800B53CC1 /* MacroImplFirstDigits.m in Sources */,
+				427B33F20F5EBDBD00B53CC1 /* MacroImplHandler.m in Sources */,
+				42A189CE0F61662300B9F46D /* RecentCallsDataSource.m in Sources */,
+				42A189D30F61673000B9F46D /* RecentCallRecord.m in Sources */,
+				42A18A5E0F617D1200B9F46D /* ConfigViewController.m in Sources */,
+				426C96350F61F87500F61CE3 /* TabControllerProtocol.m in Sources */,
+				429AC38B0F62197100CCCDE4 /* SwitchCell.m in Sources */,
+				429AC3900F621A4200CCCDE4 /* FeedbackCell.m in Sources */,
+				429AC3950F621A7000CCCDE4 /* FeedbackCellDelegateProtocol.m in Sources */,
+				429AC3D70F622B7500CCCDE4 /* TextInputCell.m in Sources */,
+				429AC5090F6289E300CCCDE4 /* MacroListController.m in Sources */,
+				429AC5760F63274C00CCCDE4 /* MacroImplViewController.m in Sources */,
+				429AC5850F635EA100CCCDE4 /* MacroImplTypeViewController.m in Sources */,
+				42EEB0700F64B0F80070F56D /* MacroImplRemovePrefix.m in Sources */,
+				42EEB0750F64B1CA0070F56D /* MacroImplRemoveSuffix.m in Sources */,
+				425D66A50F67159800EA0EFB /* MacroNameViewController.m in Sources */,
+				42CDDF280F67D609008806C7 /* NavigationControllerWithRefresh.m in Sources */,
+				42CDDF2F0F67D857008806C7 /* RefreshProtocol.m in Sources */,
+				42991A5A20022CD000D19F6D /* FieldValuePreviewCell.m in Sources */,
+				42CDDF950F694E1E008806C7 /* MacroAutoLearner.m in Sources */,
+				420A5BBC0F6BB62200CC9A1D /* MacroImplReplace.m in Sources */,
+				420A5BF40F6BB8F400CC9A1D /* MacroImplReplacePlus.m in Sources */,
+				422C7EAD0F6D43B3001B13F6 /* MacroVariablesViewController.m in Sources */,
+				4281E9790F6F3B7D00D93D7B /* MacroImplNoOp.m in Sources */,
+				424DFBD10F7127790091F0E0 /* MacroImplPausePrefix.m in Sources */,
+				424DFBD80F7128350091F0E0 /* MacroImplPauseSuffix.m in Sources */,
+				424DFBE90F71489A0091F0E0 /* ScheduleViewController.m in Sources */,
+				424DFD390F72A1510091F0E0 /* WebListViewController.m in Sources */,
+				424DFF3A0F73E9DB0091F0E0 /* WebCodeViewController.m in Sources */,
+				424DFFDE0F73FD270091F0E0 /* MacroImplReplacePrefix.m in Sources */,
+				424DFFE30F73FD810091F0E0 /* MacroImplReplaceSuffix.m in Sources */,
+				4210AFE10F8107EC00D51D84 /* SetupWizardViewController.m in Sources */,
+				42C61CAF0F8275FF00B9491A /* RemoteDownloadList.m in Sources */,
+				4263DD0B0F864E2E00C07208 /* RemoteDownloadPackage.m in Sources */,
+				42991A5B20022CD000D19F6D /* SearchableTableController.m in Sources */,
+				42470C600FBD8AD700F83545 /* WebUploadViewController.m in Sources */,
+				423A120D0FC94D730058755C /* RemoteUploadPackage.m in Sources */,
+				42FACBEA0FCE4BA00037DDF4 /* MacroListPickerViewController.m in Sources */,
+				42EE6F2B0FD1494000E98838 /* HtmlViewController.m in Sources */,
+				422DF1350FD958F6001FFD08 /* FindWhereIAm.m in Sources */,
+				422DF1B10FD96650001FFD08 /* RemoteDownloadLocation.m in Sources */,
+				42737DE70FE14C9500B443BA /* InfoDatabase.m in Sources */,
+				42D8CDB20FE5EEF400186D5B /* PhoneNumberInfo.m in Sources */,
+				4265D16E0FECB05A00E4C7DB /* UsageData.m in Sources */,
+				4249381B0FF7241700D6B316 /* DebugViewController.m in Sources */,
+				424938EC0FF9115900D6B316 /* DebugUsageViewController.m in Sources */,
+				42FE3D80101B1F2F0059710F /* DebugDictArrayViewController.m in Sources */,
+				4267DB171234F97600FB1956 /* WebURLroznet.m in Sources */,
+				42CB91D8134605AF006298D6 /* MacroImplReplaceRegexp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426F3B711BA5C088002202EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426F3BCF1BA5C823002202EC /* RecentCallRecord.m in Sources */,
+				426F3BD01BA5C823002202EC /* MacroOrganizer.m in Sources */,
+				426F3BD11BA5C823002202EC /* InfoDatabase.m in Sources */,
+				426F3BD21BA5C823002202EC /* UsageData.m in Sources */,
+				426F3BD31BA5C823002202EC /* PhoneNumber.m in Sources */,
+				426F3BD41BA5C823002202EC /* PhoneNumberInfo.m in Sources */,
+				426F3BD51BA5C823002202EC /* MacroImplReplacePlus.m in Sources */,
+				426F3BD61BA5C823002202EC /* MacroImplReplace.m in Sources */,
+				426F3BD71BA5C823002202EC /* MacroImplRemoveSuffix.m in Sources */,
+				426F3BD81BA5C823002202EC /* MacroImplFirstDigits.m in Sources */,
+				426F3BD91BA5C823002202EC /* MacroImplRemovePlus.m in Sources */,
+				426F3BDA1BA5C823002202EC /* MacroImplAddVarPrefix.m in Sources */,
+				426F3BDB1BA5C823002202EC /* MacroImplPausePrefix.m in Sources */,
+				426F3BDC1BA5C823002202EC /* MacroImplLastDigits.m in Sources */,
+				426F3BDD1BA5C823002202EC /* MacroImplRemoveCountryCode.m in Sources */,
+				426F3BDE1BA5C823002202EC /* MacroImplAddPrefix.m in Sources */,
+				426F3BDF1BA5C823002202EC /* MacroImplAddSuffix.m in Sources */,
+				426F3BE01BA5C823002202EC /* MacroImplAddVarSuffix.m in Sources */,
+				426F3BE11BA5C823002202EC /* MacroImplRemovePrefix.m in Sources */,
+				428AC2DA1D8566370005663E /* MacroEmpty.swift in Sources */,
+				426F3BE21BA5C823002202EC /* MacroImplNoOp.m in Sources */,
+				426F3BE31BA5C823002202EC /* MacroImplPauseSuffix.m in Sources */,
+				426F3BE41BA5C823002202EC /* MacroImplReplacePrefix.m in Sources */,
+				426F3BE51BA5C823002202EC /* MacroImplReplaceSuffix.m in Sources */,
+				426F3BE61BA5C823002202EC /* MacroImplReplaceRegexp.m in Sources */,
+				426F3BE71BA5C823002202EC /* MacroAutoLearner.m in Sources */,
+				426F3BE81BA5C823002202EC /* MacroImplHandler.m in Sources */,
+				426F3BE91BA5C823002202EC /* MacroImpl.m in Sources */,
+				426F3BEA1BA5C823002202EC /* MacroXMLParser.m in Sources */,
+				426F3BEB1BA5C823002202EC /* MacroNode.m in Sources */,
+				426F3BEC1BA5C823002202EC /* WebURLroznet.m in Sources */,
+				426F3BED1BA5C823002202EC /* FindWhereIAm.m in Sources */,
+				426F3BEE1BA5C823002202EC /* RemoteDownloadPackage.m in Sources */,
+				426F3BEF1BA5C823002202EC /* RemoteDownloadList.m in Sources */,
+				426F3BF01BA5C823002202EC /* RemoteUploadPackage.m in Sources */,
+				426F3BF11BA5C823002202EC /* RemoteDownloadLocation.m in Sources */,
+				426F3BBC1BA5C4ED002202EC /* main.m in Sources */,
+				426F3BAA1BA5C299002202EC /* MacroHandlerTests.m in Sources */,
+				426F3BA41BA5C299002202EC /* AppGlobals.m in Sources */,
+				426F3BA71BA5C299002202EC /* InfoTests.m in Sources */,
+				426F3BA61BA5C299002202EC /* DatabaseTests.m in Sources */,
+				426F3BAB1BA5C299002202EC /* MacroTests.m in Sources */,
+				426F3BA91BA5C299002202EC /* MacroDialTestViewController.m in Sources */,
+				426F3BA51BA5C299002202EC /* ConfigTests.m in Sources */,
+				426F3BAC1BA5C299002202EC /* PhoneNumberTests.m in Sources */,
+				426F3BA81BA5C299002202EC /* MacroDialTestAppDelegate.m in Sources */,
+				426F3BAD1BA5C299002202EC /* WebMacrosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A5E4211D8566D40009C344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RZUtils;
+			targetProxy = 42A5E4201D8566D40009C344 /* PBXContainerItemProxy */;
+		};
+		42A5E4251D8566D40009C344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RZUtilsTouch;
+			targetProxy = 42A5E4241D8566D40009C344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426F3B851BA5C088002202EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426F3B861BA5C088002202EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42CB6D360F4EEA0A006CDCE7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CB6D370F4EEA0A006CDCE7 /* en */,
+				42CB6D3B0F4EEA28006CDCE7 /* fr */,
+				423182A50F9786D7003DACE0 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				MACRODIALDEBUG = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
+				PRODUCT_NAME = MacroDial;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacroDial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
+				PRODUCT_NAME = MacroDial;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacroDial-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4256F7A80F74823A00C12E77 /* AppStore Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brice Rosenzweig";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2FEB4DA7-BC4D-4AA5-93CD-7959E6B08521";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+			};
+			name = "AppStore Distribution";
+		};
+		4256F7A90F74823A00C12E77 /* AppStore Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
+				PRODUCT_NAME = MacroDial;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacroDial-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "AppStore Distribution";
+		};
+		4264CF1B0F6D63D700A98F7C /* AdHoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brice Rosenzweig";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F1F2CC24-AEFC-4E0C-8AEC-50E38FEAC63B";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+			};
+			name = "AdHoc Distribution";
+		};
+		4264CF1C0F6D63D700A98F7C /* AdHoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
+				PRODUCT_NAME = MacroDial;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MacroDial-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "AdHoc Distribution";
+		};
+		426F3B891BA5C088002202EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = macrodialtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodialtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "macrodialtest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		426F3B8A1BA5C088002202EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = macrodialtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodialtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "macrodialtest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426F3B8B1BA5C088002202EC /* AppStore Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = macrodialtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodialtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "macrodialtest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "AppStore Distribution";
+		};
+		426F3B8C1BA5C088002202EC /* AdHoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = macrodialtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodialtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "macrodialtest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "AdHoc Distribution";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brice Rosenzweig (75W56XXS83)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "FB2C401B-7477-4857-8F13-C868239D8D27";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Brice Rosenzweig";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brice Rosenzweig";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE = "29EE28FC-5F5E-4488-A2A8-3B7BC53CE49E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29EE28FC-5F5E-4488-A2A8-3B7BC53CE49E";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MacroDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				4256F7A90F74823A00C12E77 /* AppStore Distribution */,
+				4264CF1C0F6D63D700A98F7C /* AdHoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426F3B8D1BA5C088002202EC /* Build configuration list for PBXNativeTarget "macrodialtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426F3B891BA5C088002202EC /* Debug */,
+				426F3B8A1BA5C088002202EC /* Release */,
+				426F3B8B1BA5C088002202EC /* AppStore Distribution */,
+				426F3B8C1BA5C088002202EC /* AdHoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				4256F7A80F74823A00C12E77 /* AppStore Distribution */,
+				4264CF1B0F6D63D700A98F7C /* AdHoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

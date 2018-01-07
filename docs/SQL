@@ -1,0 +1,36 @@
+// Get current list of macros to dispay 
+SELECT name, definition FROM macros_current ORDERED BY lastuse DESC
+SELECT name, definition FROM macros_current ORDERED BY order
+// update last use of a macro
+UPDATE macros_current SET lastuse = NOW() WHERE macros_id = %ID%
+//
+
+
+
+macro_current				// macros to display in current profile
+	macro_id	INTEGER			//key
+	displayname	TEXT		//string
+	definition	TEXT		//xmldef
+	lastuse		TIME		//last time it was used
+	order		INTEGER			//order for hard coded order
+
+macro_user_variables		//custom fields for macros like codes, passwords, etc
+	macro_id	INTEGER			
+	variable_name	TEXT		
+	variable_value	TEXT
+
+recent_calls
+	call_time	TIME,
+	macro_id	INTEGER,
+	call_number	TEXT,
+	call_contact_id	INTEGER,
+
+profiles
+	profile_id	INTEGER
+	profile_name	TEXT		
+	
+profile_defs
+	profile_id		INT
+	macro_id		INT
+	order			INT
+

@@ -1,0 +1,18 @@
+BUGS
+- DialView does not refresh when modifying macro from config screen
+- ImplView does not refresh when changing type
+
+TASKS
+
+FEATURES DONE
+- missing variable for macros
+- preserve state when exit/return
+- basic rules
+- macro builder window
+- recent calls window
+- config window edit macros
+
+FEATURES TO DO
+- profile organizer
+- config window edit profile
+

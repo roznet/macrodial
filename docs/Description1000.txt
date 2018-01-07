@@ -1,0 +1,11 @@
+MacroDial is a tool to help edit and automatically change numbers according to some rules based on the way you want to call: IDD, calling card, corporate access number, without entering multiple entry your phonebook.
+
+This program is intended to be useful if
+- you travel and need to dial the same number in diverse way (ex: dial +813 5555 5555 from hong kong, but 03 5555 5555 from Japan).
+- you have access to IDD prefix code (ex: Three in Hong Kong)
+- your carrier do not process the + as expected (ex: Softbank in japan)
+- you have corporate access number that require processing of the number to extract the right extension.
+- you are using multiple calling card from different countries.
+- you want to share your calling macros allowing other to personalize their PIN
+
+Check the website for instructions or questions

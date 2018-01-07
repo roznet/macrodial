@@ -1,0 +1,16 @@
+INSERT INTO packages (package_name) VALUES ('Hong Kong Three');
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>1966</prefix></rule></rule>', 'IDD1966' FROM packages WHERE package_name='Hong Kong Three';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>1968</prefix></rule></rule>', 'IDD1968' FROM packages WHERE package_name='Hong Kong Three';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0060</prefix></rule></rule>', 'IDD0060' FROM packages WHERE package_name='Hong Kong Three';
+INSERT INTO packages (package_name) VALUES ('Japan Softbank');
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>local</type><rule><type>prefix</type><prefix>0</prefix></rule></rule>', 'local+0' FROM packages WHERE package_name='Japan Softbank';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>local</type><rule><type>prefix</type><prefix>0</prefix></rule></rule>', 'ローカル' FROM packages WHERE package_name='Japan Softbank';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeprefix</type><prefix>0</prefix><rule><type>prefix</type><prefix>+81</prefix></rule></rule>', 'Add Country Code +81' FROM packages WHERE package_name='Japan Softbank';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>010</prefix></rule></rule>', 'Abroad from Japan' FROM packages WHERE package_name='Japan Softbank';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>replaceprefix</type><search>010</search><replace>+</replace></rule>', 'Replace 010 with +' FROM packages WHERE package_name='Japan Softbank';
+INSERT INTO packages (package_name) VALUES ('Brazil IDD');
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0021</prefix></rule></rule>', 'Brazil IDD 0021' FROM packages WHERE package_name='Brazil IDD';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0014</prefix></rule></rule>', 'Brazil IDD 0014' FROM packages WHERE package_name='Brazil IDD';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0015</prefix></rule></rule>', 'Brazil IDD 0015' FROM packages WHERE package_name='Brazil IDD';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0023</prefix></rule></rule>', 'Brazil IDD 0023' FROM packages WHERE package_name='Brazil IDD';
+INSERT INTO packages_macros ( package_id, macro_xml, macro_name ) SELECT  package_id, '<rule><type>removeplus</type><rule><type>prefix</type><prefix>0031</prefix></rule></rule>', 'Brazil IDD 0031' FROM packages WHERE package_name='Brazil IDD';

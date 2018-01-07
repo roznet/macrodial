@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	padding: 0px;
+	margin: 0.4em;
+	font: Arial, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+ul {
+	font: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}

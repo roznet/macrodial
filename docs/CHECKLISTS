@@ -1,0 +1,7 @@
+1) Macros 
+Add a new Rule
+- add a MacroImpl class
+- implement the actual work if necessary on PhoneNumber Class
+- exit MacroNode.m dictionary for the parsing of xml tag
+- write unit test in MacroDialTest
+

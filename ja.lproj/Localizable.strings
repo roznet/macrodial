@@ -1,0 +1,104 @@
+﻿/* 
+   Localizable.strings
+   MacroDial
+
+   Created by brice on 16/04/2009.
+   Copyright 2009 ro-z.net. All rights reserved.
+ */
+
+/*************************
+ *	Phone Tags
+ */
+"_$!<Home>!$_"		= "Home";
+"_$!<Mobile>!$_"	= "Mobile";
+"_$!<Work>!$_"		= "Work";
+"_$!<WorkFAX>!$_"	= "Work (Fax) ";
+"_$!<Main>!$_"		= "Main";
+"_$!<HomeFAX>!$_"	= "Home (Fax)";
+"_$!<Pager>!$_"		= "Pager";
+"_$!<Other>!$_"		= "Other";
+
+/*************************
+ *	Tabs Title
+ */
+ 
+ "Dial"		= "キーボード";
+ "Recent"	= "歴史";
+ "Contact"	= "	連絡先";
+ "Schedule" = "Schedule";
+ "Config"	= "設定";
+ 
+/*************************
+ *	Dial View Screen
+ */ 
+ //Buttons
+ "Call"					= "発信";
+ "Enter Phone Number"	= "Enter Phone Number";
+ "Missing Var"			= "Missing Input"; //when a macro is missing variable value
+
+ /************************
+  *	Macro implementors
+  */
+"prefix"		= "Add Prefix";
+"suffix"		= "Add Suffix";
+"local"			= "Remove Country Code";
+"noop"			= "Do Nothing";
+"lastdigits"	= "Last Digits";
+"firstdigits"	= "First Digits";
+"pauseprefix"   = "Pause Before";
+"pausesuffix"   = "Pause After";
+"removeplus"	= "Remove Plus";
+"removeprefix"	= "Remove Prefix";
+"removesuffix"	= "Remove Suffix";
+"replace"		= "Replace";
+"replaceplus"	= "Replace Plus";
+"replaceprefix" = "Replace Prefix";
+"replacesuffix" = "Replace Suffix";
+"varsuffix"		= "Add Suffix Variable";
+"varprefix"		= "Add Prefix Variable";
+"regexpreplace" = "Replace Regexp";
+
+/***************************
+ *	Config Screen
+ */
+// Config item names
+"sortlastuse"	= "Sort Macros by last use";
+"autolearn"		= "Auto learn new macros";
+"includeupload" = "Display user uploaded macros";
+"editmacros"	= "Edit Macros";
+"weblist"		= "Download From Web";
+"weblistcode"   = "Download From Web With Code";
+"editprofiles"	= "Edit Profiles";
+"setupwizard"	= "Setup Wizard";
+"webupload"		= "Upload to web for sharing";
+// sections name
+"Macros"		= "Macros";
+"Settings"		= "Settings";
+"choosemacros"  = "Choose Macros to upload";
+"helpupload"    = "Info about uploads";
+
+/****************************
+ *	Setup Wizard
+ */
+"Setup Wizard"			= "Setup Wizard";
+"Standard Packages"		= "Standard Packages";
+"Other setup"			= "Other Setups";
+"clearall"				= "Start with no macros";
+"genericlist"			= "Start with generic samples";
+
+/****************************
+ *	Macro Edit
+ */
+// Edit Section
+ "name"			= "Macro Name";
+ "variables"	= "Variables";
+ "definition"	= "Definition";
+// Edit elements
+"addnewdefinition"	= "Add new definition";
+"entervalue"		= "Enter Value";
+// ImplView
+"elementtype"		= "Element Type";
+"elementargument"	= "Element Argument";
+// ImplList
+"createnewmacro"	= "Create New Macro";
+

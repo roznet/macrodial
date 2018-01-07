@@ -1,0 +1,103 @@
+﻿/* 
+   Localizable.strings
+   MacroDial
+
+   Created by brice on 20/02/2009.
+   Copyright 2009 ro-z.net. All rights reserved.
+ */
+/*************************
+ *	Phone Tags
+ */
+"_$!<Home>!$_"		= "Domicile";
+"_$!<Mobile>!$_"	= "Mobile";
+"_$!<Work>!$_"		= "Bureau";
+"_$!<WorkFAX>!$_"	= "Fax Bureau";
+"_$!<Main>!$_"		= "Principal";
+"_$!<HomeFAX>!$_"	= "Fax Domicile";
+"_$!<Pager>!$_"		= "Bipeur";
+"_$!<Other>!$_"		= "Autre";
+
+/*************************
+ *	Tabs Title
+ */
+ 
+ "Dial"		= "Clavier";
+ "Recent"	= "Appels";
+ "Contact"	= "Contacts";
+ "Schedule" = "Schedule";
+ "Config"	= "Réglages";
+ 
+/*************************
+ *	Dial View Screen
+ */ 
+ //Buttons
+ "Call"					= "Appel";
+ "Enter Phone Number"	= "Entrez un numéro";
+ "Missing Var"			= "Incomplet"; //when a macro is missing variable value
+ 
+ /************************
+  *	Macro implementors
+  */
+"prefix"		= "Ajouter Préfixe";
+"suffix"		= "Ajouter Suffixe";
+"local"			= "Enlever Indicatif Pays";
+"noop"			= "Ne Rien Faire";
+"lastdigits"	= "Derniers Numeros";
+"firstdigits"	= "Premiers Numeros";
+"pauseprefix"   = "Pause Avant";
+"pausesuffix"   = "Pause Après";
+"removeplus"	= "Enlever Plus";
+"removeprefix"	= "Enlever Préfixe";
+"removesuffix"	= "Enleter Suffixe";
+"replace"		= "Remplacer";
+"replaceplus"	= "Remplacer Plus";
+"replaceprefix" = "Remplacer Préfixe";
+"replacesuffix" = "Remplacer Suffixe";
+"varsuffix"		= "Ajouter Variable en Suffixe";
+"varprefix"		= "Ajouter Variable en Préfixe";
+"regexpreplace" = "Remplacer Regexp";
+
+/***************************
+ *	Config Screen
+ */
+// Config item names
+"sortlastuse"	= "Sort Macros by last use";
+"autolearn"		= "Apprendre les macros";
+"includeupload" = "Display user uploaded macros";
+"editmacros"	= "Editer les Macros";
+"weblist"		= "Télécharger de l'internet";
+"weblistcode"   = "Télécharger avec code";
+"editprofiles"	= "Edit Profiles";
+"setupwizard"	= "Première Utilisation";
+"webupload"		= "Upload to web for sharing";
+// sections name
+"Macros"		= "Macros";
+"Settings"		= "Réglages";
+"choosemacros"  = "Choisir Macros";
+"helpupload"    = "A propos des upload";
+
+/****************************
+ *	Setup Wizard
+ */
+"Setup Wizard"			= "Setup Wizard";
+"Standard Packages"		= "Standard Packages";
+"Other setup"			= "Other Setups";
+"clearall"				= "Start with no macros";
+"genericlist"			= "Start with generic samples";
+
+/****************************
+ *	Macro Edit
+ */
+// Edit Section
+ "name"			= "Nom de la Macro";
+ "variables"	= "Variables";
+ "definition"	= "Définition";
+// Edit elements
+"addnewdefinition"	= "Nouvelle definition";
+"entervalue"		= "Entrer la Valeur";
+// ImplView
+"elementtype"		= "Type de l'element";
+"elementargument"	= "Arguments";
+// ImplList
+"createnewmacro"	= "Créer une nouvelle macro";
+

@@ -1,0 +1,22 @@
+Data to make decision
+contact_id string
+current_location string
+number_country_code  string
+last_use  Double
+distance to location
+
+
+
+if number selection has only one macro ever used -> apply it, and make it top.
+   second reselection does not apply it
+
+1) the macro used for this contact
+2) the macro used in this country (if unknown then for any country)
+3) the macro used for this country code
+4) sorted by last use
+
+macro_id,
+country,
+country_code,
+contact_id,
+lastuse
