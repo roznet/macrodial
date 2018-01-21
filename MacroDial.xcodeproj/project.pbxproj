@@ -122,6 +122,7 @@
 		428A6A2C0F5906330085EC0C /* MacroEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428A6A2B0F5906330085EC0C /* MacroEditViewController.m */; };
 		428AC2D91D8566370005663E /* MacroEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AC2D81D8566370005663E /* MacroEmpty.swift */; };
 		428AC2DA1D8566370005663E /* MacroEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AC2D81D8566370005663E /* MacroEmpty.swift */; };
+		429392882014D02B0095C652 /* MacroDialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 429392872014D02B0095C652 /* MacroDialTests.m */; };
 		42991A5A20022CD000D19F6D /* FieldValuePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42991A5720022CD000D19F6D /* FieldValuePreviewCell.m */; };
 		42991A5B20022CD000D19F6D /* SearchableTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42991A5820022CD000D19F6D /* SearchableTableController.m */; };
 		42991A5C20022CED00D19F6D /* RZUtilsTestInfra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42991A5520022A0700D19F6D /* RZUtilsTestInfra.framework */; };
@@ -179,6 +180,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 42BF1F8C1D3ABC34004445C2;
 			remoteInfo = RZUtilsTouchTests;
+		};
+		4293928A2014D02B0095C652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = MacroDial;
+		};
+		429392932014D0DD0095C652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426F3B741BA5C088002202EC;
+			remoteInfo = macrodialtest;
 		};
 		42991A5420022A0700D19F6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -429,6 +444,9 @@
 		428AC2D61D8566370005663E /* MacroDial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacroDial-Bridging-Header.h"; sourceTree = "<group>"; };
 		428AC2D71D8566370005663E /* macrodialtest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macrodialtest-Bridging-Header.h"; sourceTree = "<group>"; };
 		428AC2D81D8566370005663E /* MacroEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MacroEmpty.swift; path = Classes/MacroEmpty.swift; sourceTree = "<group>"; };
+		429392852014D02B0095C652 /* MacroDialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacroDialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		429392872014D02B0095C652 /* MacroDialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroDialTests.m; sourceTree = "<group>"; };
+		429392892014D02B0095C652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42991A5620022CD000D19F6D /* SearchableTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchableTableController.h; path = Classes/SearchableTableController.h; sourceTree = "<group>"; };
 		42991A5720022CD000D19F6D /* FieldValuePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FieldValuePreviewCell.m; path = Classes/FieldValuePreviewCell.m; sourceTree = "<group>"; };
 		42991A5820022CD000D19F6D /* SearchableTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchableTableController.m; path = Classes/SearchableTableController.m; sourceTree = "<group>"; };
@@ -533,6 +551,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		429392822014D02B0095C652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -541,6 +566,7 @@
 			children = (
 				1D6058910D05DD3D006BFB54 /* MacroDial.app */,
 				426F3B751BA5C088002202EC /* macrodialtest.app */,
+				429392852014D02B0095C652 /* MacroDialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -551,6 +577,7 @@
 				42FB14DD1D27E27F0097B2D6 /* RZUtils.xcodeproj */,
 				426F3B8E1BA5C0D3002202EC /* App */,
 				426F3B761BA5C088002202EC /* Tests */,
+				429392862014D02B0095C652 /* MacroDialTests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -895,6 +922,15 @@
 			name = Config;
 			sourceTree = "<group>";
 		};
+		429392862014D02B0095C652 /* MacroDialTests */ = {
+			isa = PBXGroup;
+			children = (
+				429392872014D02B0095C652 /* MacroDialTests.m */,
+				429392892014D02B0095C652 /* Info.plist */,
+			);
+			path = MacroDialTests;
+			sourceTree = "<group>";
+		};
 		429AC3860F62192D00CCCDE4 /* Reusable Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -1068,6 +1104,25 @@
 			productReference = 426F3B751BA5C088002202EC /* macrodialtest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		429392842014D02B0095C652 /* MacroDialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4293928C2014D02B0095C652 /* Build configuration list for PBXNativeTarget "MacroDialTests" */;
+			buildPhases = (
+				429392812014D02B0095C652 /* Sources */,
+				429392822014D02B0095C652 /* Frameworks */,
+				429392832014D02B0095C652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4293928B2014D02B0095C652 /* PBXTargetDependency */,
+				429392942014D0DD0095C652 /* PBXTargetDependency */,
+			);
+			name = MacroDialTests;
+			productName = MacroDialTests;
+			productReference = 429392852014D02B0095C652 /* MacroDialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1089,6 +1144,12 @@
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = M7QSSF3624;
 						LastSwiftMigration = 0800;
+					};
+					429392842014D02B0095C652 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = M7QSSF3624;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 426F3B741BA5C088002202EC;
 					};
 				};
 			};
@@ -1137,6 +1198,7 @@
 			targets = (
 				1D6058900D05DD3D006BFB54 /* MacroDial */,
 				426F3B741BA5C088002202EC /* macrodialtest */,
+				429392842014D02B0095C652 /* MacroDialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1265,6 +1327,13 @@
 				426F3B871BA5C088002202EC /* LaunchScreen.storyboard in Resources */,
 				426F3BB81BA5C2B0002202EC /* info.db in Resources */,
 				426F3B841BA5C088002202EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429392832014D02B0095C652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1404,9 +1473,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		429392812014D02B0095C652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429392882014D02B0095C652 /* MacroDialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4293928B2014D02B0095C652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* MacroDial */;
+			targetProxy = 4293928A2014D02B0095C652 /* PBXContainerItemProxy */;
+		};
+		429392942014D0DD0095C652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426F3B741BA5C088002202EC /* macrodialtest */;
+			targetProxy = 429392932014D0DD0095C652 /* PBXContainerItemProxy */;
+		};
 		42A5E4211D8566D40009C344 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RZUtils;
@@ -1666,7 +1753,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_PREFIX_HEADER = macrodialtest/MacroDialTest_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1716,7 +1803,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_PREFIX_HEADER = macrodialtest/MacroDialTest_Prefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1762,7 +1849,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_PREFIX_HEADER = macrodialtest/MacroDialTest_Prefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1808,7 +1895,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/brice/Development/xcode/MacroDial/macrodialtest/MacroDialTest_Prefix.pch;
+				GCC_PREFIX_HEADER = macrodialtest/MacroDialTest_Prefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1823,6 +1910,158 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "macrodialtest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "AdHoc Distribution";
+		};
+		4293928D2014D02B0095C652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M7QSSF3624;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MacroDialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.MacroDialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macrodialtest.app/macrodialtest";
+			};
+			name = Debug;
+		};
+		4293928E2014D02B0095C652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M7QSSF3624;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MacroDialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.MacroDialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macrodialtest.app/macrodialtest";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4293928F2014D02B0095C652 /* AppStore Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M7QSSF3624;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MacroDialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.MacroDialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macrodialtest.app/macrodialtest";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "AppStore Distribution";
+		};
+		429392902014D02B0095C652 /* AdHoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M7QSSF3624;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MacroDialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.MacroDialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macrodialtest.app/macrodialtest";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = "AdHoc Distribution";
@@ -1927,6 +2166,17 @@
 				426F3B8A1BA5C088002202EC /* Release */,
 				426F3B8B1BA5C088002202EC /* AppStore Distribution */,
 				426F3B8C1BA5C088002202EC /* AdHoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4293928C2014D02B0095C652 /* Build configuration list for PBXNativeTarget "MacroDialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4293928D2014D02B0095C652 /* Debug */,
+				4293928E2014D02B0095C652 /* Release */,
+				4293928F2014D02B0095C652 /* AppStore Distribution */,
+				429392902014D02B0095C652 /* AdHoc Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
