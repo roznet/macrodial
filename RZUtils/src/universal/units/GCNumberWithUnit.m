@@ -131,6 +131,7 @@
     return RZReturnAutorelease([[GCNumberWithUnit alloc] initWithUnit:[GCUnit unitForKey:aUnit] andValue:aVal]);
 }
 
+
 #pragma mark - Conversions
 
 -(GCNumberWithUnit*)convertToUnit:(GCUnit*)aUnit{
@@ -178,13 +179,22 @@
 
 #pragma mark - Operations
 
+-(nullable GCNumberWithUnit*)numberWithUnitMultipliedBy:(double)multiplier{
+    return [GCNumberWithUnit numberWithUnit:self.unit andValue:self.value * multiplier];
+}
 -(GCNumberWithUnit*)addNumberWithUnit:(GCNumberWithUnit*)other weight:(double)weight{
     if ([other.unit canConvertTo:self.unit]) {
         return [GCNumberWithUnit numberWithUnit:self.unit andValue:(self.value + weight*[other convertToUnit:self.unit].value)];
     };
     return nil;
 }
+-(nullable GCNumberWithUnit*)addNumberWithUnit:(GCNumberWithUnit*)other thisWeight:(double)w0 otherWeight:(double)w1{
+    if ([other.unit canConvertTo:self.unit]) {
+        return [GCNumberWithUnit numberWithUnit:self.unit andValue:(self.value * w0 + w1 *[other convertToUnit:self.unit].value)];
+    };
+    return nil;
 
+}
 -(GCNumberWithUnit*)maxNumberWithUnit:(GCNumberWithUnit*)other{
     if ([other.unit canConvertTo:self.unit]) {
         return [GCNumberWithUnit numberWithUnit:self.unit andValue:MAX(self.value, [[other convertToUnit:self.unit] value])];
@@ -195,6 +205,25 @@
 -(GCNumberWithUnit*)minNumberWithUnit:(GCNumberWithUnit*)other{
     if ([other.unit canConvertTo:self.unit]) {
         return [GCNumberWithUnit numberWithUnit:self.unit andValue:MIN(self.value, [[other convertToUnit:self.unit] value])];
+    };
+    return nil;
+}
+
+-(nullable GCNumberWithUnit*)nonZeroMinNumberWithUnit:(GCNumberWithUnit*)other{
+    if ([other.unit canConvertTo:self.unit]) {
+        GCNumberWithUnit * converted = [other convertToUnit:self.unit];
+        double rv = self.value;
+        BOOL selfIsZero = (fabs(self.value) < 1.0e-10);
+        BOOL otherIsZero = (fabs(converted.value) < 1.0e-10);
+        
+        if( selfIsZero ){
+            rv = other.value;
+        }else{
+            if( !otherIsZero ){
+                rv = MIN(other.value,self.value);
+            }
+        }
+        return [GCNumberWithUnit numberWithUnit:self.unit andValue:rv];
     };
     return nil;
 }
