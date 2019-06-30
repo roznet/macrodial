@@ -112,7 +112,7 @@
                                               style:UIAlertActionStyleDefault
                                             handler:^(UIAlertAction*action){
                                                 [AppGlobals recordEvent:RECORDEVENT_COPIED_MACRO every:RECORDEVENT_STEP_EVERY];
-                                                [[AppGlobals organizer] addOrReplaceMacro:[textField text] implementor:[[AppGlobals organizer] macroImplAtIndex:organizerIndex]];
+                                                [[AppGlobals organizer] addOrReplaceMacro:[self.textField text] implementor:[[AppGlobals organizer] macroImplAtIndex:self.organizerIndex]];
                                                 RefreshObject([self navigationController]);
                                                 [[self navigationController] popToRootViewControllerAnimated:YES];
 
@@ -120,7 +120,7 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"Rename"
                                               style:UIAlertActionStyleDefault
                                             handler:^(UIAlertAction*action){
-                                                [[AppGlobals organizer] renameMacroAtIndex:[self organizerIndex] newName:[textField text]];
+                                                [[AppGlobals organizer] renameMacroAtIndex:[self organizerIndex] newName:[self.textField text]];
                                                 RefreshObject([self navigationController]);
                                             }]];
     [self presentViewController:alert animated:YES completion:^(){}];

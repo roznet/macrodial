@@ -278,11 +278,6 @@
 
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return YES;
-}
-
 
 #pragma mark UITextFieldDelegate Functions
 
@@ -407,7 +402,7 @@
                                                                    message:@"New macro detected do you want to save it?"
                                                                     action:^(){
                                                                         MacroAutoLearner * learner = [[MacroAutoLearner alloc] init];
-                                                                        MacroImpl * impl = [learner implementorFor:[phoneNumberField text] from:[contactTableDataSource selectedNumber]];
+                                                                        MacroImpl * impl = [learner implementorFor:[self.phoneNumberField text] from:[self.contactTableDataSource selectedNumber]];
                                                                         NSString * name = [[AppGlobals organizer] nextNewName];
                                                                         [AppGlobals recordEvent:RECORDEVENT_LEARNED_NEW every:RECORDEVENT_STEP_EVERY];
                                                                         [[AppGlobals organizer] addOrReplaceMacro:name implementor:impl];

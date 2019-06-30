@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
+<<<<<<< HEAD
+   LastUpgradeVersion = "0930"
+=======
    LastUpgradeVersion = "1100"
+>>>>>>> 5d732d6fe38182d6dd15c08d0d87cf926861df36
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +18,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42382B691EAC9DBD00252217"
-               BuildableName = "RZUtilsOSX.framework"
-               BlueprintName = "RZUtilsOSX"
+               BlueprintIdentifier = "42382A6B1EABA4AC00252217"
+               BuildableName = "RZUtilsUniversal.framework"
+               BlueprintName = "RZUtilsUniversal"
                ReferencedContainer = "container:RZUtils.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,9 +34,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42382B691EAC9DBD00252217"
-            BuildableName = "RZUtilsOSX.framework"
-            BlueprintName = "RZUtilsOSX"
+            BlueprintIdentifier = "42382A6B1EABA4AC00252217"
+            BuildableName = "RZUtilsUniversal.framework"
+            BlueprintName = "RZUtilsUniversal"
             ReferencedContainer = "container:RZUtils.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -41,9 +45,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42382B711EAC9DBD00252217"
-               BuildableName = "RZUtilsOSXTests.xctest"
-               BlueprintName = "RZUtilsOSXTests"
+               BlueprintIdentifier = "42382A731EABA4AC00252217"
+               BuildableName = "RZUtilsUniversalTests.xctest"
+               BlueprintName = "RZUtilsUniversalTests"
                ReferencedContainer = "container:RZUtils.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -62,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42382B691EAC9DBD00252217"
-            BuildableName = "RZUtilsOSX.framework"
-            BlueprintName = "RZUtilsOSX"
+            BlueprintIdentifier = "42382A6B1EABA4AC00252217"
+            BuildableName = "RZUtilsUniversal.framework"
+            BlueprintName = "RZUtilsUniversal"
             ReferencedContainer = "container:RZUtils.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42382B691EAC9DBD00252217"
-            BuildableName = "RZUtilsOSX.framework"
-            BlueprintName = "RZUtilsOSX"
+            BlueprintIdentifier = "42382A6B1EABA4AC00252217"
+            BuildableName = "RZUtilsUniversal.framework"
+            BlueprintName = "RZUtilsUniversal"
             ReferencedContainer = "container:RZUtils.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
