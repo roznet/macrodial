@@ -25,7 +25,6 @@
 
 #import "InfoDatabase.h"
 #import "AppConstants.h"
-#import "RZUtils/RZUtils.h"
 
 @implementation InfoDatabase
 @synthesize db,cache,defaultIdd;

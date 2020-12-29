@@ -24,7 +24,6 @@
 //  
 
 #import <Foundation/Foundation.h>
-#import "RZUtils/RZUtils.h"
 #import "PhoneNumberInfo.h"
 
 @interface InfoDatabase : NSObject {

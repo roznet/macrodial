@@ -25,7 +25,6 @@
 
 #import <Foundation/Foundation.h>
 #import "AddressBook/ABPerson.h"
-#import "RZUtils/RZUtils.h"
 #import "MacroImpl.h"
 #import "RecentCallRecord.h"
 #import "UsageData.h"

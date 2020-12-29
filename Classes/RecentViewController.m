@@ -25,7 +25,6 @@
 
 #import "RecentViewController.h"
 #import "AppGlobals.h"
-#import "RZUtils/RZUtils.h"
 
 
 @implementation RecentViewController

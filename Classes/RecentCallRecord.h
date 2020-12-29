@@ -25,7 +25,6 @@
 
 #import <Foundation/Foundation.h>
 #import <AddressBookUI/AddressBookUI.h>
-#import "RZUtils/RZUtils.h"
 #import <CoreLocation/CoreLocation.h>
 
 //Note: upgrade to v2: add macro_id,longitude,latitude,original_number

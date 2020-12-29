@@ -5,7 +5,7 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
-    #import "RZUtils/RZUtils.h"
-    #import "RZUtilsTouch/RZUtilsTouch.h"
+@import RZUtils;
+@import RZUtilsTouch;
 
 #endif

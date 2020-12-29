@@ -34,7 +34,6 @@
 #import "MacroNameViewController.h"
 #import "RecentCallRecord.h"
 #import "AppConstants.h"
-#import <RZUtils/RZUtils.h>
 
 @import Contacts;
 

@@ -24,7 +24,6 @@
 //  
 
 #import <Foundation/Foundation.h>
-#import "RZUtils/RZUtils.h"
 
 @protocol RemoteDownloadPackageDelegate
 -(void)downloadPackageSuccessful:(id)connection package:(NSArray*)theArray;

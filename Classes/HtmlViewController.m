@@ -24,7 +24,6 @@
 //  
 
 #import "HtmlViewController.h"
-#import "RZUtils/RZUtils.h"
 
 @implementation HtmlViewController
 @synthesize filePath;

@@ -24,7 +24,6 @@
 //  
 
 #import <Foundation/Foundation.h>
-#import <RZUtils/RZUtils.h>
 
 @interface RemoteDownloadList : RZRemoteDownload<NSXMLParserDelegate> {
 	NSMutableArray *			downloadedList;

@@ -24,7 +24,6 @@
 //  
 
 #import "WebURLroznet.h"
-#import "RZUtils/RZUtils.h"
 
 static NSString * UrlRoot = @"https://www.ro-z.net/macrodial/iphone";
 

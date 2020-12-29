@@ -25,7 +25,6 @@
 
 #import "RecentCallRecord.h"
 #import "PhoneNumber.h"
-#import "RZUtils/RZUtils.h"
 
 @implementation RecentCallRecord
 @synthesize originalNumber,callNumber,contactName,contactId,macroName,callTime,phoneLabel,location,macroId;

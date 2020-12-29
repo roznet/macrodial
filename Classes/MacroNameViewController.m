@@ -27,7 +27,6 @@
 #import "AppGlobals.h"
 #import "AppConstants.h"
 #import "RefreshProtocol.h"
-#import "RZUtils/RZUtils.h"
 
 @implementation MacroNameViewController
 @synthesize organizerIndex,textField,forceRename;

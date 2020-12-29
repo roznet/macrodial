@@ -24,7 +24,6 @@
 //  
 
 #import "MacroDialAppDelegate.h"
-#import "RZUtils/RZUtils.h"
 #import "AppConstants.h"
 
 @implementation MacroDialAppDelegate

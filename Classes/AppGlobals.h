@@ -26,7 +26,6 @@
 
 #import "MacroOrganizer.h"
 #import "InfoDatabase.h"
-#import <RZUtils/RZUtils.h>
 
 @interface AppGlobals : RZAppConfig {
 

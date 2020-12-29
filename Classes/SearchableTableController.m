@@ -7,7 +7,6 @@
 //
 
 #import "SearchableTableController.h"
-#import "RZUtils/RZUtils.h"
 
 @implementation SearchableTableController
 @synthesize dataArray,search,searchArray;

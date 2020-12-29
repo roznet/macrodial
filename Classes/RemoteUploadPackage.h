@@ -24,7 +24,6 @@
 //  
 
 #import <Foundation/Foundation.h>
-#import "RZUtils/RZUtils.h"
 
 @protocol RemoteUploadPackageDelegate
 -(void)downloadPackageSuccessful:(id)connection;

@@ -24,7 +24,6 @@
 //  
 
 #import "MacroImpl.h"
-#import <RZUtils/RZUtils.h>
 
 @implementation MacroImpl
 @synthesize type;
