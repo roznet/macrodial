@@ -59,7 +59,7 @@
 }
 
 +(UIColor*)backgroundColor{
-	return( [UIColor groupTableViewBackgroundColor] );
+	return( [UIColor systemGroupedBackgroundColor] );
 }
 
 +(void)selectTab:(int)aTab{

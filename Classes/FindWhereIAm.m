@@ -58,31 +58,24 @@
 
 
 #pragma mark locationManagerDelegate
-
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
-{
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations{
+    
 	[locationManager stopUpdatingLocation];
-
-	[self setCurrentLocation:newLocation];
-#ifdef USEPINCH
-#endif
-
-	if( locationData ){
-		NSString *requestString = [NSString stringWithFormat:@"http://zonetag.research.yahooapis.com/services/rest/V1/suggestedTags.php?apptoken=%@&latitude=%f&longitude=%f&output=xml",
-								   APPTOKEN,
-								   [currentLocation coordinate].latitude,
-								   [currentLocation coordinate].longitude ];
-		self.remoteLocation = [[RemoteDownloadLocation alloc] initWithURL:requestString andDelegate:self];
-	}else{
-		[locatorDelegate foundLocation];
-	}
+    CLLocation * newLocation = locations.lastObject;
+    if( newLocation ){
+        [self setCurrentLocation:newLocation];
+        
+        if( locationData ){
+            NSString *requestString = [NSString stringWithFormat:@"http://zonetag.research.yahooapis.com/services/rest/V1/suggestedTags.php?apptoken=%@&latitude=%f&longitude=%f&output=xml",
+                                       APPTOKEN,
+                                       [currentLocation coordinate].latitude,
+                                       [currentLocation coordinate].longitude ];
+            self.remoteLocation = [[RemoteDownloadLocation alloc] initWithURL:requestString andDelegate:self];
+        }else{
+            [locatorDelegate foundLocation];
+        }
+    }
 }
-
-/*
- - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
- {
- }
- */
 
 #pragma mark downloadDelegate
 

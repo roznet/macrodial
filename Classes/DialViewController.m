@@ -27,7 +27,6 @@
 #import "PhoneNumber.h"
 #import "MacroXMLParser.h"
 #import "MacroVariablesViewController.h"
-#import <AddressBookUI/AddressBookUI.h>
 #import "AppGlobals.h"
 #import "MacroEditViewController.h"
 #import "MacroAutoLearner.h"

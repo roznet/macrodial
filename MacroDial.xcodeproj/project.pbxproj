@@ -26,8 +26,6 @@
 		422DF1B10FD96650001FFD08 /* RemoteDownloadLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DF1B00FD96650001FFD08 /* RemoteDownloadLocation.m */; };
 		423700020F448EA100624FDE /* MacroImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700010F448EA100624FDE /* MacroImpl.m */; };
 		423700350F459C2700624FDE /* MacroImplAddPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 423700340F459C2700624FDE /* MacroImplAddPrefix.m */; };
-		4237020D0F45C38100624FDE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237020B0F45C38100624FDE /* AddressBook.framework */; };
-		4237020E0F45C38100624FDE /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237020C0F45C38100624FDE /* AddressBookUI.framework */; };
 		4237FF800F44887100624FDE /* MacroNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF7F0F44887100624FDE /* MacroNode.m */; };
 		4237FF850F44892800624FDE /* MacroXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237FF840F44892800624FDE /* MacroXMLParser.m */; };
 		423A120D0FC94D730058755C /* RemoteUploadPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 423A120C0FC94D730058755C /* RemoteUploadPackage.m */; };
@@ -421,8 +419,6 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				425D246F259B7F0B0003574F /* RZUtils in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
-				4237020D0F45C38100624FDE /* AddressBook.framework in Frameworks */,
-				4237020E0F45C38100624FDE /* AddressBookUI.framework in Frameworks */,
 				4285B9050F5306B2008D6F3C /* libsqlite3.0.dylib in Frameworks */,
 				42470CD40FC2ECF200F83545 /* SystemConfiguration.framework in Frameworks */,
 				425D2478259B7F620003574F /* RZUtilsTouch in Frameworks */,
@@ -1292,7 +1288,6 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1300,12 +1295,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.2.0.0;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1315,6 +1311,7 @@
 					"$(SRCROOT)",
 				);
 				MACRODIALDEBUG = 1;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
 				PRODUCT_NAME = MacroDial;
 				PROVISIONING_PROFILE = "";
@@ -1328,7 +1325,6 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1336,10 +1332,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.2.0.0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1348,6 +1345,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
 				PRODUCT_NAME = MacroDial;
 				PROVISIONING_PROFILE = "";
@@ -1399,7 +1397,6 @@
 		4256F7A90F74823A00C12E77 /* AppStore Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1407,10 +1404,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.2.0.0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1419,6 +1417,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
 				PRODUCT_NAME = MacroDial;
 				PROVISIONING_PROFILE = "";
@@ -1471,7 +1470,6 @@
 		4264CF1C0F6D63D700A98F7C /* AdHoc Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1479,10 +1477,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.2.0.0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MacroDial_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1495,6 +1494,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ro-z.macrodial";
 				PRODUCT_NAME = MacroDial;
 				PROVISIONING_PROFILE = "";

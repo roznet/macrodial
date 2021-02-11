@@ -80,7 +80,7 @@
 	UINavigationController *configNav   = [[NavigationControllerWithRefresh alloc] initWithRootViewController:configViewController];
 	UINavigationController *recentNav   = [[NavigationControllerWithRefresh alloc] initWithRootViewController:recentViewController];
 
-	UIBarStyle style = UIBarStyleBlackOpaque;
+	UIBarStyle style = UIBarStyleBlack;
 	style = UIBarStyleDefault;
 
 	dialNav.navigationBar.barStyle						= style;

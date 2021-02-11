@@ -24,7 +24,6 @@
 //  
 
 #import <UIKit/UIKit.h>
-#import "AddressBook/ABPerson.h"
 #import "DialControllerProtocol.h"
 
 

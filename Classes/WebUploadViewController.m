@@ -69,7 +69,7 @@
 
 	activityIndicator = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 32.0f, 32.0f)];
     [activityIndicator setCenter:CGPointMake(160.0f, 208.0f)];
-    [activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleGray];
+    [activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleLarge];
 	[activityIndicator stopAnimating];
 	[[self view] addSubview:activityIndicator];
 

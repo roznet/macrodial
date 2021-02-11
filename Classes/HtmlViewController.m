@@ -24,6 +24,7 @@
 //  
 
 #import "HtmlViewController.h"
+@import WebKit;
 
 @implementation HtmlViewController
 @synthesize filePath;
@@ -50,7 +51,7 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	UIWebView *contentView	= [[UIWebView alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+	WKWebView *contentView	= [[WKWebView alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 
 	if( contentDelegate ){
 		NSString * content = [contentDelegate htmlContentString];

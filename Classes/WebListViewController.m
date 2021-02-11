@@ -62,7 +62,7 @@
 	[super loadView];
 	activityIndicator = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 32.0f, 32.0f)];
     [activityIndicator setCenter:CGPointMake(160.0f, 208.0f)];
-    [activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleGray];
+    [activityIndicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleLarge];
 	[activityIndicator startAnimating];
 	[[self view] addSubview:activityIndicator];
 	// will be free by delegate methods
